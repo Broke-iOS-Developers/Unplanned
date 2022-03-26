@@ -31,7 +31,7 @@ App that takes points of interest around a given area and chooses one of those f
 * Users can re-randomize if they're not satisfied with the selection.
 * Users can view the details of the selection like restaurant hours, rating, prices, etc..
 * Users can view their liked POIs in their profile page. 
-* Lets users change language, and app notification settings.
+* Lets users change privacy.
 
 
 **Optional Nice-to-have Stories**
@@ -58,7 +58,7 @@ App that takes points of interest around a given area and chooses one of those f
    * Users can view the details of the selection like restaurant hours, rating, prices, etc.. 
    * ...
 * Settings
-   * Lets users change language, and app notification settings.
+   * Lets users change privacy.
 
 ### 3. Navigation
 
