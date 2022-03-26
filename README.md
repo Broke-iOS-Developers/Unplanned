@@ -49,7 +49,7 @@ App that takes points of interest around a given area and chooses one of those f
 * Launch Screen
    * User sees an app icon on the home screen and a styled launch screen
    * ...
-* Stream
+* Home
    * User can see categories based on entertainment and food. 
    * User can select categories and enter in parameters which will give the app something to randomize points of interest from and return a selection. 
    * Users can view returned POI(s).
@@ -64,14 +64,14 @@ App that takes points of interest around a given area and chooses one of those f
 
 **Tab Navigation** (Tab to Screen)
 
-* Stream
+* Home
 * Settings
 
 **Flow Navigation** (Screen to Screen)
 
 * Launch Screen
     *  -> Stream
-* Stream
+* Home
     *  -> Detail
 * Detail
     *  -> None
