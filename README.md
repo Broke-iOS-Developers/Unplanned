@@ -25,8 +25,6 @@ App that takes points of interest around a given area and chooses one of those f
 
 **Required Must-have Stories**
 * User sees an app icon on the home screen and a styled launch screen
-* User can log in 
-* User can register a new account
 * User can see categories based on entertainment and food. 
 * User can select categories and enter in parameters which will give the app something to randomize points of interest (POI) from and return a selection. 
 * Users can view returned POI(s).
@@ -37,7 +35,8 @@ App that takes points of interest around a given area and chooses one of those f
 
 
 **Optional Nice-to-have Stories**
-
+* User can log in 
+* User can register a new account
 * Users can rate the places they've been to.
 * Users can see the places they've been to. 
 * Users can like or mark places they've been to and blacklist it to the randomizer so they can try completely new things.
@@ -50,12 +49,6 @@ App that takes points of interest around a given area and chooses one of those f
 * Launch Screen
    * User sees an app icon on the home screen and a styled launch screen
    * ...
-* Login Screen
-   * User can log in 
-   * ...
-* Register Screen
-   * User can register a new account
-   * ...
 * Stream
    * User can see categories based on entertainment and food. 
    * User can select categories and enter in parameters which will give the app something to randomize points of interest from and return a selection. 
@@ -64,8 +57,6 @@ App that takes points of interest around a given area and chooses one of those f
 * Detail
    * Users can view the details of the selection like restaurant hours, rating, prices, etc.. 
    * ...
-* Profile
-   * Users can view their liked POIs in their profile page. 
 * Settings
    * Lets users change language, and app notification settings.
 
@@ -74,17 +65,11 @@ App that takes points of interest around a given area and chooses one of those f
 **Tab Navigation** (Tab to Screen)
 
 * Stream
-* Profile
 * Settings
 
 **Flow Navigation** (Screen to Screen)
 
 * Launch Screen
-    *  -> Login 
-    *  -> Register
-* Login Screen
-    *  -> Stream
-* Register Screen
     *  -> Stream
 * Stream
     *  -> Detail
