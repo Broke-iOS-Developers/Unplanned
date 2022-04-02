@@ -6,7 +6,7 @@
 1. [Wireframes](#Wireframes)
 2. [Schema](#Schema)
 
-## Overview
+## Overview[]()
 ### Description
 App that takes points of interest around a given area and chooses one of those for the user to go to either completely random or based on criteria. 
 
@@ -25,18 +25,19 @@ App that takes points of interest around a given area and chooses one of those f
 
 **Required Must-have Stories**
 * User sees an app icon on the home screen and a styled launch screen
+* User can log in 
+* User can register a new account
 * User can see categories based on entertainment and food. 
 * User can select categories and enter in parameters which will give the app something to randomize points of interest (POI) from and return a selection. 
 * Users can view returned POI(s).
 * Users can re-randomize if they're not satisfied with the selection.
 * Users can view the details of the selection like restaurant hours, rating, prices, etc..
 * Users can view their liked POIs in their profile page. 
-* Lets users change privacy.
+* Lets users change language, and app notification settings.
 
 
 **Optional Nice-to-have Stories**
-* User can log in 
-* User can register a new account
+
 * Users can rate the places they've been to.
 * Users can see the places they've been to. 
 * Users can like or mark places they've been to and blacklist it to the randomizer so they can try completely new things.
@@ -49,7 +50,13 @@ App that takes points of interest around a given area and chooses one of those f
 * Launch Screen
    * User sees an app icon on the home screen and a styled launch screen
    * ...
-* Home
+* Login Screen
+   * User can log in 
+   * ...
+* Register Screen
+   * User can register a new account
+   * ...
+* Stream
    * User can see categories based on entertainment and food. 
    * User can select categories and enter in parameters which will give the app something to randomize points of interest from and return a selection. 
    * Users can view returned POI(s).
@@ -57,21 +64,29 @@ App that takes points of interest around a given area and chooses one of those f
 * Detail
    * Users can view the details of the selection like restaurant hours, rating, prices, etc.. 
    * ...
+* Profile
+   * Users can view their liked POIs in their profile page. 
 * Settings
-   * Lets users change privacy.
+   * Lets users change language, and app notification settings.
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Home
+* Stream
+* Profile
 * Settings
 
 **Flow Navigation** (Screen to Screen)
 
 * Launch Screen
+    *  -> Login 
+    *  -> Register
+* Login Screen
     *  -> Stream
-* Home
+* Register Screen
+    *  -> Stream
+* Stream
     *  -> Detail
 * Detail
     *  -> None
@@ -81,18 +96,40 @@ App that takes points of interest around a given area and chooses one of those f
     *  -> None
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![](https://i.imgur.com/8TwAI5R.jpg)
+![](https://i.imgur.com/5ySATm1.jpg)
 
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+### Digital Wireframes & Mockups
+#### In progress....
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### User
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | userID      | String   | unique identfier for user |
+   | email      | String   | email user registers with |
+   | password   | String   | password set by user |
+   | firstName  | String | user's first name |
+   | lastName   | String     | user's last name |
+   | phoneNumber    | String   | user's phoneNumber |
+   | profilePicture | File   | the set profile picture (otherwise defualt) |
+   | favoritePlaces    | [String]   | a list of favorited places |
+   | createdAt     | DateTime | when user profile was created
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### Login Screen
+- (`GET`/`POST`) Username and password for verification
+#### Sign Up Screen
+- (`GET`/`POST`) Username and password for registration and verfication that the user does not already exist
+- (`POST`) storing the phone number
+- (`POST`) storing the first/last name
+- (`POST`) storing the email
+#### Home Screen
+- (`GET`) users favorite places
+- (`GET`) users first name
+#### Profile/Setting Screen
+- (`GET`) all user information
+- (`UPDATE`) user will be update all thier account information
+- (`DELTE`) the user will be able to delete the account from the database
+
