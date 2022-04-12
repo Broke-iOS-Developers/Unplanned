@@ -131,5 +131,5 @@ App that takes points of interest around a given area and chooses one of those f
 #### Profile/Setting Screen
 - (`GET`) all user information
 - (`UPDATE`) user will be update all thier account information
-- (`DELTE`) the user will be able to delete the account from the database
+- (`DELETE`) the user will be able to delete the account from the database
 
