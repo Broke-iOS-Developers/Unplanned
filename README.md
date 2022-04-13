@@ -100,8 +100,7 @@ App that takes points of interest around a given area and chooses one of those f
 ![](https://i.imgur.com/5ySATm1.jpg)
 
 ### Digital Wireframes & Mockups
-#### In progress....
-
+![image](https://user-images.githubusercontent.com/44373355/163105611-8cfbaaef-192e-4c03-9947-0fb39ffaf843.png)
 ## Schema 
 ### Models
 #### User
