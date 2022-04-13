@@ -96,8 +96,8 @@ App that takes points of interest around a given area and chooses one of those f
     *  -> None
 
 ## Wireframes
-![](https://i.imgur.com/8TwAI5R.jpg)
-![](https://i.imgur.com/5ySATm1.jpg)
+<img src="https://i.imgur.com/8TwAI5R.jpg" width=400px>
+<img src="https://i.imgur.com/5ySATm1.jpg" width=400px> 
 
 ### Digital Wireframes & Mockups
 ![image](https://user-images.githubusercontent.com/44373355/163105611-8cfbaaef-192e-4c03-9947-0fb39ffaf843.png)
