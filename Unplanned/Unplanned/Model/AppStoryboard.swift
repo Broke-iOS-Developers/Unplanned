@@ -6,3 +6,11 @@
 //
 
 import Foundation
+import UIKit
+
+enum AppStoryboard : String {
+    case StartingScreen = "StartingScreen"
+    var instance : UIStoryboard {
+      return UIStoryboard(name: self.rawValue, bundle: Bundle.main)
+    }
+}
