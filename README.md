@@ -11,7 +11,6 @@
 App that takes points of interest around a given area and chooses one of those for the user to go to either completely random or based on criteria. 
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Food and Entertainment
 - **Mobile:** This app would primarily be developed for mobile use but could also be viable on a desktop. Mobile features may include realtime geolocation updates that will help determine the range of the user. 
 - **Story:** Takes the Points of Interest around the location of the user and randomizes based on criteria. You can choose criteria based on your needs: If you want to just try new mexican food then do just that. If you want to go to popular club that people have been flocking to but you just don't know about yet. Or there may be a bar so lowkey that you have to be lucky to find. The potential is vast. 
