@@ -10,12 +10,16 @@ import UIKit
 class StartingViewController: UIViewController {
     
     
+    @IBOutlet weak var getStartedButton: UIButton!
     
-
+    @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         //UI CHANGES
+        getStartedButton.layer.cornerRadius = 100
+        loginButton.layer.cornerRadius = 100
         
         
         

@@ -9,6 +9,42 @@
 /* Begin PBXBuildFile section */
 		892C18302808B36F00A83DF0 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C182F2808B36F00A83DF0 /* StartingViewController.swift */; };
 		892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C18312808B78B00A83DF0 /* AppStoryboard.swift */; };
+		892C18342808D8AF00A83DF0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892C18332808D8AF00A83DF0 /* Home.storyboard */; };
+		892C185C2808E03200A83DF0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18372808E03100A83DF0 /* Roboto-Medium.ttf */; };
+		892C185D2808E03200A83DF0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18382808E03100A83DF0 /* Roboto-Light.ttf */; };
+		892C185E2808E03200A83DF0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18392808E03100A83DF0 /* Roboto-Regular.ttf */; };
+		892C185F2808E03200A83DF0 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C183A2808E03100A83DF0 /* Roboto-MediumItalic.ttf */; };
+		892C18602808E03200A83DF0 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C183B2808E03100A83DF0 /* Roboto-ThinItalic.ttf */; };
+		892C18612808E03200A83DF0 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C183C2808E03100A83DF0 /* Roboto-BoldItalic.ttf */; };
+		892C18622808E03200A83DF0 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C183D2808E03100A83DF0 /* Roboto-LightItalic.ttf */; };
+		892C18632808E03200A83DF0 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C183E2808E03100A83DF0 /* Roboto-Italic.ttf */; };
+		892C18642808E03200A83DF0 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 892C183F2808E03100A83DF0 /* LICENSE.txt */; };
+		892C18652808E03200A83DF0 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18402808E03100A83DF0 /* Roboto-BlackItalic.ttf */; };
+		892C18662808E03200A83DF0 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18412808E03100A83DF0 /* Roboto-Bold.ttf */; };
+		892C18672808E03200A83DF0 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18422808E03100A83DF0 /* Roboto-Thin.ttf */; };
+		892C18682808E03200A83DF0 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18432808E03100A83DF0 /* Roboto-Black.ttf */; };
+		892C18692808E03200A83DF0 /* Jost-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18452808E03100A83DF0 /* Jost-VariableFont_wght.ttf */; };
+		892C186A2808E03200A83DF0 /* Jost-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18472808E03100A83DF0 /* Jost-BoldItalic.ttf */; };
+		892C186B2808E03200A83DF0 /* Jost-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18482808E03100A83DF0 /* Jost-Bold.ttf */; };
+		892C186C2808E03200A83DF0 /* Jost-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18492808E03100A83DF0 /* Jost-ThinItalic.ttf */; };
+		892C186D2808E03200A83DF0 /* Jost-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C184A2808E03100A83DF0 /* Jost-ExtraLight.ttf */; };
+		892C186E2808E03200A83DF0 /* Jost-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C184B2808E03100A83DF0 /* Jost-BlackItalic.ttf */; };
+		892C186F2808E03200A83DF0 /* Jost-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C184C2808E03100A83DF0 /* Jost-ExtraBoldItalic.ttf */; };
+		892C18702808E03200A83DF0 /* Jost-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C184D2808E03100A83DF0 /* Jost-Thin.ttf */; };
+		892C18712808E03200A83DF0 /* Jost-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C184E2808E03100A83DF0 /* Jost-LightItalic.ttf */; };
+		892C18722808E03200A83DF0 /* Jost-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C184F2808E03100A83DF0 /* Jost-Black.ttf */; };
+		892C18732808E03200A83DF0 /* Jost-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18502808E03100A83DF0 /* Jost-ExtraLightItalic.ttf */; };
+		892C18742808E03200A83DF0 /* Jost-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18512808E03200A83DF0 /* Jost-Medium.ttf */; };
+		892C18752808E03200A83DF0 /* Jost-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18522808E03200A83DF0 /* Jost-Regular.ttf */; };
+		892C18762808E03200A83DF0 /* Jost-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18532808E03200A83DF0 /* Jost-ExtraBold.ttf */; };
+		892C18772808E03200A83DF0 /* Jost-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18542808E03200A83DF0 /* Jost-Light.ttf */; };
+		892C18782808E03200A83DF0 /* Jost-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18552808E03200A83DF0 /* Jost-Italic.ttf */; };
+		892C18792808E03200A83DF0 /* Jost-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18562808E03200A83DF0 /* Jost-SemiBoldItalic.ttf */; };
+		892C187A2808E03200A83DF0 /* Jost-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18572808E03200A83DF0 /* Jost-SemiBold.ttf */; };
+		892C187B2808E03200A83DF0 /* Jost-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18582808E03200A83DF0 /* Jost-MediumItalic.ttf */; };
+		892C187C2808E03200A83DF0 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 892C18592808E03200A83DF0 /* OFL.txt */; };
+		892C187D2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C185A2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf */; };
+		892C187E2808E03200A83DF0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 892C185B2808E03200A83DF0 /* README.txt */; };
 		899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50712807CABE009B7BF4 /* AppDelegate.swift */; };
 		899D50742807CABE009B7BF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50732807CABE009B7BF4 /* SceneDelegate.swift */; };
 		899D50762807CABE009B7BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50752807CABE009B7BF4 /* ViewController.swift */; };
@@ -24,6 +60,42 @@
 		4FC34526B51FDAED520D466A /* Pods-Unplanned.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unplanned.release.xcconfig"; path = "Target Support Files/Pods-Unplanned/Pods-Unplanned.release.xcconfig"; sourceTree = "<group>"; };
 		892C182F2808B36F00A83DF0 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
 		892C18312808B78B00A83DF0 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		892C18332808D8AF00A83DF0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		892C18372808E03100A83DF0 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		892C18382808E03100A83DF0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		892C18392808E03100A83DF0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		892C183A2808E03100A83DF0 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		892C183B2808E03100A83DF0 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		892C183C2808E03100A83DF0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		892C183D2808E03100A83DF0 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		892C183E2808E03100A83DF0 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		892C183F2808E03100A83DF0 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		892C18402808E03100A83DF0 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		892C18412808E03100A83DF0 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		892C18422808E03100A83DF0 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		892C18432808E03100A83DF0 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		892C18452808E03100A83DF0 /* Jost-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		892C18472808E03100A83DF0 /* Jost-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-BoldItalic.ttf"; sourceTree = "<group>"; };
+		892C18482808E03100A83DF0 /* Jost-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Bold.ttf"; sourceTree = "<group>"; };
+		892C18492808E03100A83DF0 /* Jost-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-ThinItalic.ttf"; sourceTree = "<group>"; };
+		892C184A2808E03100A83DF0 /* Jost-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-ExtraLight.ttf"; sourceTree = "<group>"; };
+		892C184B2808E03100A83DF0 /* Jost-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-BlackItalic.ttf"; sourceTree = "<group>"; };
+		892C184C2808E03100A83DF0 /* Jost-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		892C184D2808E03100A83DF0 /* Jost-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Thin.ttf"; sourceTree = "<group>"; };
+		892C184E2808E03100A83DF0 /* Jost-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-LightItalic.ttf"; sourceTree = "<group>"; };
+		892C184F2808E03100A83DF0 /* Jost-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Black.ttf"; sourceTree = "<group>"; };
+		892C18502808E03100A83DF0 /* Jost-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		892C18512808E03200A83DF0 /* Jost-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Medium.ttf"; sourceTree = "<group>"; };
+		892C18522808E03200A83DF0 /* Jost-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Regular.ttf"; sourceTree = "<group>"; };
+		892C18532808E03200A83DF0 /* Jost-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-ExtraBold.ttf"; sourceTree = "<group>"; };
+		892C18542808E03200A83DF0 /* Jost-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Light.ttf"; sourceTree = "<group>"; };
+		892C18552808E03200A83DF0 /* Jost-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Italic.ttf"; sourceTree = "<group>"; };
+		892C18562808E03200A83DF0 /* Jost-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		892C18572808E03200A83DF0 /* Jost-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-SemiBold.ttf"; sourceTree = "<group>"; };
+		892C18582808E03200A83DF0 /* Jost-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-MediumItalic.ttf"; sourceTree = "<group>"; };
+		892C18592808E03200A83DF0 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		892C185A2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		892C185B2808E03200A83DF0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		899D506E2807CABE009B7BF4 /* Unplanned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unplanned.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899D50712807CABE009B7BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899D50732807CABE009B7BF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +127,72 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		892C18352808E03100A83DF0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				892C18362808E03100A83DF0 /* Roboto */,
+				892C18442808E03100A83DF0 /* Jost */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		892C18362808E03100A83DF0 /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				892C18372808E03100A83DF0 /* Roboto-Medium.ttf */,
+				892C18382808E03100A83DF0 /* Roboto-Light.ttf */,
+				892C18392808E03100A83DF0 /* Roboto-Regular.ttf */,
+				892C183A2808E03100A83DF0 /* Roboto-MediumItalic.ttf */,
+				892C183B2808E03100A83DF0 /* Roboto-ThinItalic.ttf */,
+				892C183C2808E03100A83DF0 /* Roboto-BoldItalic.ttf */,
+				892C183D2808E03100A83DF0 /* Roboto-LightItalic.ttf */,
+				892C183E2808E03100A83DF0 /* Roboto-Italic.ttf */,
+				892C183F2808E03100A83DF0 /* LICENSE.txt */,
+				892C18402808E03100A83DF0 /* Roboto-BlackItalic.ttf */,
+				892C18412808E03100A83DF0 /* Roboto-Bold.ttf */,
+				892C18422808E03100A83DF0 /* Roboto-Thin.ttf */,
+				892C18432808E03100A83DF0 /* Roboto-Black.ttf */,
+			);
+			path = Roboto;
+			sourceTree = "<group>";
+		};
+		892C18442808E03100A83DF0 /* Jost */ = {
+			isa = PBXGroup;
+			children = (
+				892C18452808E03100A83DF0 /* Jost-VariableFont_wght.ttf */,
+				892C18462808E03100A83DF0 /* static */,
+				892C18592808E03200A83DF0 /* OFL.txt */,
+				892C185A2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf */,
+				892C185B2808E03200A83DF0 /* README.txt */,
+			);
+			path = Jost;
+			sourceTree = "<group>";
+		};
+		892C18462808E03100A83DF0 /* static */ = {
+			isa = PBXGroup;
+			children = (
+				892C18472808E03100A83DF0 /* Jost-BoldItalic.ttf */,
+				892C18482808E03100A83DF0 /* Jost-Bold.ttf */,
+				892C18492808E03100A83DF0 /* Jost-ThinItalic.ttf */,
+				892C184A2808E03100A83DF0 /* Jost-ExtraLight.ttf */,
+				892C184B2808E03100A83DF0 /* Jost-BlackItalic.ttf */,
+				892C184C2808E03100A83DF0 /* Jost-ExtraBoldItalic.ttf */,
+				892C184D2808E03100A83DF0 /* Jost-Thin.ttf */,
+				892C184E2808E03100A83DF0 /* Jost-LightItalic.ttf */,
+				892C184F2808E03100A83DF0 /* Jost-Black.ttf */,
+				892C18502808E03100A83DF0 /* Jost-ExtraLightItalic.ttf */,
+				892C18512808E03200A83DF0 /* Jost-Medium.ttf */,
+				892C18522808E03200A83DF0 /* Jost-Regular.ttf */,
+				892C18532808E03200A83DF0 /* Jost-ExtraBold.ttf */,
+				892C18542808E03200A83DF0 /* Jost-Light.ttf */,
+				892C18552808E03200A83DF0 /* Jost-Italic.ttf */,
+				892C18562808E03200A83DF0 /* Jost-SemiBoldItalic.ttf */,
+				892C18572808E03200A83DF0 /* Jost-SemiBold.ttf */,
+				892C18582808E03200A83DF0 /* Jost-MediumItalic.ttf */,
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		899D50652807CABE009B7BF4 = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +220,7 @@
 				899D50712807CABE009B7BF4 /* AppDelegate.swift */,
 				899D50732807CABE009B7BF4 /* SceneDelegate.swift */,
 				899D507A2807CAC0009B7BF4 /* Assets.xcassets */,
+				892C18352808E03100A83DF0 /* Fonts */,
 				899D507F2807CAC0009B7BF4 /* Info.plist */,
 			);
 			path = Unplanned;
@@ -100,6 +239,7 @@
 			children = (
 				899D507C2807CAC0009B7BF4 /* LaunchScreen.storyboard */,
 				899D50772807CABE009B7BF4 /* StartingScreen.storyboard */,
+				892C18332808D8AF00A83DF0 /* Home.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -189,9 +329,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892C18672808E03200A83DF0 /* Roboto-Thin.ttf in Resources */,
+				892C185C2808E03200A83DF0 /* Roboto-Medium.ttf in Resources */,
+				892C18632808E03200A83DF0 /* Roboto-Italic.ttf in Resources */,
+				892C18702808E03200A83DF0 /* Jost-Thin.ttf in Resources */,
+				892C18662808E03200A83DF0 /* Roboto-Bold.ttf in Resources */,
+				892C187B2808E03200A83DF0 /* Jost-MediumItalic.ttf in Resources */,
+				892C18712808E03200A83DF0 /* Jost-LightItalic.ttf in Resources */,
+				892C187A2808E03200A83DF0 /* Jost-SemiBold.ttf in Resources */,
+				892C18622808E03200A83DF0 /* Roboto-LightItalic.ttf in Resources */,
+				892C18722808E03200A83DF0 /* Jost-Black.ttf in Resources */,
+				892C18682808E03200A83DF0 /* Roboto-Black.ttf in Resources */,
+				892C186A2808E03200A83DF0 /* Jost-BoldItalic.ttf in Resources */,
+				892C18742808E03200A83DF0 /* Jost-Medium.ttf in Resources */,
+				892C186E2808E03200A83DF0 /* Jost-BlackItalic.ttf in Resources */,
+				892C186B2808E03200A83DF0 /* Jost-Bold.ttf in Resources */,
+				892C18652808E03200A83DF0 /* Roboto-BlackItalic.ttf in Resources */,
+				892C187E2808E03200A83DF0 /* README.txt in Resources */,
+				892C18762808E03200A83DF0 /* Jost-ExtraBold.ttf in Resources */,
+				892C18782808E03200A83DF0 /* Jost-Italic.ttf in Resources */,
+				892C18772808E03200A83DF0 /* Jost-Light.ttf in Resources */,
+				892C185E2808E03200A83DF0 /* Roboto-Regular.ttf in Resources */,
 				899D507E2807CAC0009B7BF4 /* LaunchScreen.storyboard in Resources */,
+				892C186F2808E03200A83DF0 /* Jost-ExtraBoldItalic.ttf in Resources */,
+				892C18732808E03200A83DF0 /* Jost-ExtraLightItalic.ttf in Resources */,
+				892C18642808E03200A83DF0 /* LICENSE.txt in Resources */,
+				892C186D2808E03200A83DF0 /* Jost-ExtraLight.ttf in Resources */,
+				892C185D2808E03200A83DF0 /* Roboto-Light.ttf in Resources */,
+				892C187C2808E03200A83DF0 /* OFL.txt in Resources */,
+				892C185F2808E03200A83DF0 /* Roboto-MediumItalic.ttf in Resources */,
 				899D507B2807CAC0009B7BF4 /* Assets.xcassets in Resources */,
+				892C18602808E03200A83DF0 /* Roboto-ThinItalic.ttf in Resources */,
+				892C186C2808E03200A83DF0 /* Jost-ThinItalic.ttf in Resources */,
+				892C187D2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf in Resources */,
 				899D50792807CABE009B7BF4 /* StartingScreen.storyboard in Resources */,
+				892C18792808E03200A83DF0 /* Jost-SemiBoldItalic.ttf in Resources */,
+				892C18612808E03200A83DF0 /* Roboto-BoldItalic.ttf in Resources */,
+				892C18342808D8AF00A83DF0 /* Home.storyboard in Resources */,
+				892C18692808E03200A83DF0 /* Jost-VariableFont_wght.ttf in Resources */,
+				892C18752808E03200A83DF0 /* Jost-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +578,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Unplanned;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = StartingScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -433,7 +609,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = Unplanned;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = StartingScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

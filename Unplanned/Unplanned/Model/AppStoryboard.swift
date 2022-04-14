@@ -8,8 +8,11 @@
 import Foundation
 import UIKit
 
+//Set up for more efficient and clean insantiating and referencing of Storyboards
+
 enum AppStoryboard : String {
     case StartingScreen = "StartingScreen"
+    case Home = "Home"
     var instance : UIStoryboard {
       return UIStoryboard(name: self.rawValue, bundle: Bundle.main)
     }
