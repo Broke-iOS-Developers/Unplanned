@@ -10,16 +10,24 @@ import UIKit
 class StartingViewController: UIViewController {
     
     
-    @IBOutlet weak var getStartedButton: UIButton!
+    @IBOutlet weak var getStartedButton: UIButton!{
+        didSet{
+            getStartedButton.layer.cornerRadius = 10
+            getStartedButton.layer.masksToBounds = true
+        }
+    }
     
-    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!{
+        didSet{
+            loginButton.layer.cornerRadius = 10
+            loginButton.layer.masksToBounds = true
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         //UI CHANGES
-        getStartedButton.layer.cornerRadius = 100
-        loginButton.layer.cornerRadius = 100
         
         
         
