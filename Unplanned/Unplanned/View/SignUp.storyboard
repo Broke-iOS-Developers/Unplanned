@@ -11,11 +11,11 @@
         <array key="Jost-ExtraBold.ttf">
             <string>Jost-ExtraBold</string>
         </array>
+        <array key="Jost-Regular.ttf">
+            <string>Jost-Regular</string>
+        </array>
         <array key="Jost-SemiBold.ttf">
             <string>Jost-SemiBold</string>
-        </array>
-        <array key="Jost-VariableFont_wght.ttf">
-            <string>Jost-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -27,49 +27,266 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Middle Art_1" translatesAutoresizingMaskIntoConstraints="NO" id="VMc-B3-ytY">
-                                <rect key="frame" x="0.0" y="72" width="414" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Middle Art_1" translatesAutoresizingMaskIntoConstraints="NO" id="VMc-B3-ytY">
+                                <rect key="frame" x="0.0" y="44" width="414" height="84"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNt-QM-DHm">
-                                <rect key="frame" x="20" y="208" width="261" height="95"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GNt-QM-DHm">
+                                <rect key="frame" x="20" y="144" width="228.5" height="69.5"/>
                                 <fontDescription key="fontDescription" name="Jost-ExtraBold" family="Jost" pointSize="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create your account" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luU-fd-Wuz">
-                                <rect key="frame" x="20" y="311" width="261" height="106"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create your account" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luU-fd-Wuz">
+                                <rect key="frame" x="20" y="221.5" width="327.5" height="52.5"/>
                                 <fontDescription key="fontDescription" name="Jost-SemiBold" family="Jost" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="btj-iQ-fl3">
-                                <rect key="frame" x="20" y="491" width="374" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="btj-iQ-fl3">
+                                <rect key="frame" x="20" y="357" width="374" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYj-J7-YEL">
-                                <rect key="frame" x="20" y="448" width="111" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYj-J7-YEL">
+                                <rect key="frame" x="20" y="314" width="111" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lfB-pc-HEr">
+                                <rect key="frame" x="20" y="474" width="374" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpd-fL-ZbG">
+                                <rect key="frame" x="20" y="431" width="107" height="35"/>
+                                <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="776-fe-LCl">
+                                <rect key="frame" x="20" y="591" width="374" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtQ-97-0RQ">
+                                <rect key="frame" x="20" y="548" width="156" height="35"/>
+                                <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd1-jY-C4h">
+                                <rect key="frame" x="36" y="725" width="342" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="4B5-tf-D2K"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next">
+                                    <fontDescription key="titleFontDescription" name="Jost-Bold" family="Jost" pointSize="25"/>
+                                    <color key="baseBackgroundColor" name="Accent 1"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="g3n-dN-nYb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="Primary 1"/>
+                        <constraints>
+                            <constraint firstItem="cpd-fL-ZbG" firstAttribute="top" secondItem="btj-iQ-fl3" secondAttribute="bottom" constant="40" id="0J6-Ze-Noq"/>
+                            <constraint firstItem="VMc-B3-ytY" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="0ah-j5-sl6"/>
+                            <constraint firstItem="btj-iQ-fl3" firstAttribute="top" secondItem="CYj-J7-YEL" secondAttribute="bottom" constant="8" id="2eF-BX-3w5"/>
+                            <constraint firstItem="TtQ-97-0RQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="745-tF-cUT"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xd1-jY-C4h" secondAttribute="trailing" constant="36" id="KCj-eN-upg"/>
+                            <constraint firstItem="776-fe-LCl" firstAttribute="top" secondItem="TtQ-97-0RQ" secondAttribute="bottom" constant="8" id="MAn-JH-5tp"/>
+                            <constraint firstItem="CYj-J7-YEL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="My5-Nd-GIE"/>
+                            <constraint firstItem="CYj-J7-YEL" firstAttribute="top" secondItem="luU-fd-Wuz" secondAttribute="bottom" constant="40" id="R8m-ck-dmV"/>
+                            <constraint firstItem="VMc-B3-ytY" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Su6-tC-cWT"/>
+                            <constraint firstItem="GNt-QM-DHm" firstAttribute="top" secondItem="VMc-B3-ytY" secondAttribute="bottom" constant="16" id="Xpz-VB-42Z"/>
+                            <constraint firstItem="luU-fd-Wuz" firstAttribute="top" secondItem="GNt-QM-DHm" secondAttribute="bottom" constant="8" id="Yls-Tu-8vq"/>
+                            <constraint firstItem="xd1-jY-C4h" firstAttribute="top" secondItem="776-fe-LCl" secondAttribute="bottom" constant="100" id="bKC-7S-LWD"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="lfB-pc-HEr" secondAttribute="trailing" constant="20" id="dJn-6e-q4K"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="776-fe-LCl" secondAttribute="trailing" constant="20" id="dVG-Jt-pOm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="btj-iQ-fl3" secondAttribute="trailing" constant="20" id="h0c-e5-AjU"/>
+                            <constraint firstItem="GNt-QM-DHm" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="hgi-DN-QsC"/>
+                            <constraint firstItem="btj-iQ-fl3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="pMI-Wq-mog"/>
+                            <constraint firstItem="VMc-B3-ytY" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="sUT-Kf-0iQ"/>
+                            <constraint firstItem="cpd-fL-ZbG" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="u8a-8R-LFv"/>
+                            <constraint firstItem="xd1-jY-C4h" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="vBy-Ce-D2n"/>
+                            <constraint firstItem="lfB-pc-HEr" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="w9J-3G-BtV"/>
+                            <constraint firstItem="luU-fd-Wuz" firstAttribute="leading" secondItem="GNt-QM-DHm" secondAttribute="leading" id="wAl-zQ-1O6"/>
+                            <constraint firstItem="lfB-pc-HEr" firstAttribute="top" secondItem="cpd-fL-ZbG" secondAttribute="bottom" constant="8" id="wV7-5z-3y8"/>
+                            <constraint firstItem="776-fe-LCl" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="xbA-hK-p7e"/>
+                            <constraint firstItem="TtQ-97-0RQ" firstAttribute="top" secondItem="lfB-pc-HEr" secondAttribute="bottom" constant="40" id="z53-Lz-sud"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="firstNameTextField" destination="btj-iQ-fl3" id="ZE7-nL-yeX"/>
+                        <outlet property="lastNameTextField" destination="lfB-pc-HEr" id="AZF-6A-r41"/>
+                        <outlet property="nextButton" destination="xd1-jY-C4h" id="ABw-SO-Gy4"/>
+                        <outlet property="phoneNumberTextField" destination="776-fe-LCl" id="1CU-cl-Hyg"/>
+                        <segue destination="8P7-mV-5H3" kind="show" identifier="toNextStep" id="N4p-C4-Bc2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="UxR-Ho-Mhg">
+            <objects>
+                <viewController id="8P7-mV-5H3" customClass="SignUpViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TWY-nw-nOp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Middle Art_2-1" translatesAutoresizingMaskIntoConstraints="NO" id="H2w-8o-NPJ">
+                                <rect key="frame" x="0.0" y="44" width="414" height="84"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Step!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvk-dW-YjC">
+                                <rect key="frame" x="20" y="144" width="230" height="70"/>
+                                <fontDescription key="fontDescription" name="Jost-ExtraBold" family="Jost" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost done" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxl-mJ-FAk">
+                                <rect key="frame" x="20" y="222" width="204.5" height="52.5"/>
+                                <fontDescription key="fontDescription" name="Jost-SemiBold" family="Jost" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k39-Ne-t9x">
+                                <rect key="frame" x="20" y="357.5" width="374" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Co-xf-Oa6">
+                                <rect key="frame" x="20" y="314.5" width="56" height="35"/>
+                                <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="etb-Rh-oWb">
+                                <rect key="frame" x="20" y="474.5" width="374" height="34"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSn-YZ-V3L">
+                                <rect key="frame" x="20" y="431.5" width="95" height="35"/>
+                                <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLQ-1a-zl6">
+                                <rect key="frame" x="36" y="725.5" width="342" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="zkX-RS-FsK"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Register!">
+                                    <fontDescription key="titleFontDescription" name="Jost-Bold" family="Jost" pointSize="25"/>
+                                    <color key="baseBackgroundColor" name="Accent 1"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="registerButtonPressed:" destination="8P7-mV-5H3" eventType="touchUpInside" id="jj8-iu-QCb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UYe-z3-ujB"/>
+                        <color key="backgroundColor" name="Primary 1"/>
+                        <constraints>
+                            <constraint firstItem="nLQ-1a-zl6" firstAttribute="top" secondItem="etb-Rh-oWb" secondAttribute="bottom" constant="217" id="1cj-DX-N5i"/>
+                            <constraint firstItem="nLQ-1a-zl6" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="36" id="4C2-Th-wp8"/>
+                            <constraint firstItem="UYe-z3-ujB" firstAttribute="trailing" secondItem="nLQ-1a-zl6" secondAttribute="trailing" constant="36" id="531-xX-ZzE"/>
+                            <constraint firstItem="DSn-YZ-V3L" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="5cw-zb-Yg3"/>
+                            <constraint firstItem="hxl-mJ-FAk" firstAttribute="leading" secondItem="Gvk-dW-YjC" secondAttribute="leading" id="654-nS-rYT"/>
+                            <constraint firstItem="etb-Rh-oWb" firstAttribute="top" secondItem="DSn-YZ-V3L" secondAttribute="bottom" constant="8" id="ImQ-ad-h1V"/>
+                            <constraint firstItem="3Co-xf-Oa6" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="RNh-ZY-tjf"/>
+                            <constraint firstItem="UYe-z3-ujB" firstAttribute="trailing" secondItem="etb-Rh-oWb" secondAttribute="trailing" constant="20" id="Ra5-GK-kib"/>
+                            <constraint firstItem="H2w-8o-NPJ" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" id="b8X-UB-nDi"/>
+                            <constraint firstItem="k39-Ne-t9x" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="bS1-Z5-6Td"/>
+                            <constraint firstItem="etb-Rh-oWb" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="cYY-bk-iUy"/>
+                            <constraint firstItem="H2w-8o-NPJ" firstAttribute="top" secondItem="UYe-z3-ujB" secondAttribute="top" id="eIs-13-kIN"/>
+                            <constraint firstItem="Gvk-dW-YjC" firstAttribute="top" secondItem="H2w-8o-NPJ" secondAttribute="bottom" constant="16" id="elI-qt-pYX"/>
+                            <constraint firstItem="Gvk-dW-YjC" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="n3g-c0-6j8"/>
+                            <constraint firstItem="H2w-8o-NPJ" firstAttribute="trailing" secondItem="UYe-z3-ujB" secondAttribute="trailing" id="oMw-x6-sNr"/>
+                            <constraint firstItem="hxl-mJ-FAk" firstAttribute="top" secondItem="Gvk-dW-YjC" secondAttribute="bottom" constant="8" id="phO-ds-vvk"/>
+                            <constraint firstItem="UYe-z3-ujB" firstAttribute="trailing" secondItem="k39-Ne-t9x" secondAttribute="trailing" constant="20" id="s5P-7P-qir"/>
+                            <constraint firstItem="3Co-xf-Oa6" firstAttribute="top" secondItem="hxl-mJ-FAk" secondAttribute="bottom" constant="40" id="vLp-l3-wvb"/>
+                            <constraint firstItem="k39-Ne-t9x" firstAttribute="top" secondItem="3Co-xf-Oa6" secondAttribute="bottom" constant="8" id="wGK-Qo-Crf"/>
+                            <constraint firstItem="DSn-YZ-V3L" firstAttribute="top" secondItem="k39-Ne-t9x" secondAttribute="bottom" constant="40" id="ybu-xn-3wY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="UGy-cG-Izi"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="k39-Ne-t9x" id="qrw-5u-ZR6"/>
+                        <outlet property="passwordTextField" destination="etb-Rh-oWb" id="9cc-il-hR3"/>
+                        <outlet property="registerButton" destination="nLQ-1a-zl6" id="YMW-rW-ZNM"/>
+                        <segue destination="F14-6f-nag" kind="show" identifier="toEnjoyScreen" id="x3f-nu-XtG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Tf-Wb-0LQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1009" y="116"/>
+        </scene>
+        <!--Sign Up View Controller-->
+        <scene sceneID="9BR-hG-JEo">
+            <objects>
+                <viewController id="F14-6f-nag" customClass="SignUpViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bJ2-dD-xBV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Middle Art_3-2" translatesAutoresizingMaskIntoConstraints="NO" id="VKp-yt-mhV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="98"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaB-Qi-G8Y">
+                                <rect key="frame" x="20" y="158" width="143" height="70"/>
+                                <fontDescription key="fontDescription" name="Jost-ExtraBold" family="Jost" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="xw8-0A-AXk"/>
+                        <color key="backgroundColor" name="Primary 1"/>
+                        <constraints>
+                            <constraint firstItem="VKp-yt-mhV" firstAttribute="top" secondItem="xw8-0A-AXk" secondAttribute="top" id="P6C-Lu-CjG"/>
+                            <constraint firstItem="YaB-Qi-G8Y" firstAttribute="top" secondItem="VKp-yt-mhV" secondAttribute="bottom" constant="16" id="V5I-uv-GLS"/>
+                            <constraint firstItem="VKp-yt-mhV" firstAttribute="leading" secondItem="xw8-0A-AXk" secondAttribute="leading" id="V9S-tX-ZBr"/>
+                            <constraint firstItem="YaB-Qi-G8Y" firstAttribute="leading" secondItem="xw8-0A-AXk" secondAttribute="leading" constant="20" id="VJs-Pz-jpA"/>
+                            <constraint firstItem="VKp-yt-mhV" firstAttribute="trailing" secondItem="xw8-0A-AXk" secondAttribute="trailing" id="ci4-5X-3Wd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dju-VZ-HcN"/>
+                    <connections>
+                        <segue destination="Fg5-8e-jPR" kind="presentation" identifier="toHomeScreen" id="bLg-oC-UMi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bl-Vx-zWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1859" y="116"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="t2N-8x-QQL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="Fg5-8e-jPR" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uEd-ng-7TV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2437" y="3"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Middle Art_1" width="428" height="84"/>
+        <image name="Middle Art_2-1" width="428" height="84"/>
+        <image name="Middle Art_3-2" width="428" height="98"/>
+        <namedColor name="Accent 1">
+            <color red="0.94901960784313721" green="0.73725490196078436" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="Primary 1">
             <color red="0.15686274509803921" green="0.22352941176470589" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
