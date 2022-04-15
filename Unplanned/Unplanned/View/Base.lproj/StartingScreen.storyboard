@@ -63,6 +63,7 @@
                         <outlet property="getStartedButton" destination="b0J-W6-Zuw" id="3LS-1q-TzQ"/>
                         <outlet property="loginButton" destination="9re-1Y-0n1" id="Sdy-Xx-Y1n"/>
                         <segue destination="r0C-w4-oXq" kind="show" identifier="toSignUp" id="mIK-3s-ua8"/>
+                        <segue destination="cV7-7U-2XT" kind="show" identifier="toLogIn" id="rOS-C3-8Xx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -79,13 +80,15 @@
             </objects>
             <point key="canvasLocation" x="848" y="47"/>
         </scene>
-        <!--Storyboard Reference-->
+        <!--LogIn-->
         <scene sceneID="cZN-cu-OGp">
             <objects>
-                <viewControllerPlaceholder id="cV7-7U-2XT" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="LogIn" id="cV7-7U-2XT" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pFk-tc-vUD"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s8k-Zh-onP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="784" y="166"/>
+            <point key="canvasLocation" x="854" y="169"/>
         </scene>
     </scenes>
     <resources>
