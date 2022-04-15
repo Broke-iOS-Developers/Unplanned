@@ -33,6 +33,13 @@ class StartingViewController: UIViewController {
         
     }
     
+    @IBAction func getStartedButtonPressed(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "toSignUp", sender: self)
+        
+        
+    }
+    
 
     /*
     // MARK: - Navigation

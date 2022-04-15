@@ -46,9 +46,10 @@
 		892C187D2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C185A2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf */; };
 		892C187E2808E03200A83DF0 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 892C185B2808E03200A83DF0 /* README.txt */; };
 		892C188028091D6E00A83DF0 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892C187F28091D6E00A83DF0 /* SignUp.storyboard */; };
+		892C18822809298300A83DF0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C18812809298300A83DF0 /* SignUpViewController.swift */; };
+		892C18852809FB8900A83DF0 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892C18842809FB8900A83DF0 /* LogIn.storyboard */; };
 		899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50712807CABE009B7BF4 /* AppDelegate.swift */; };
 		899D50742807CABE009B7BF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50732807CABE009B7BF4 /* SceneDelegate.swift */; };
-		899D50762807CABE009B7BF4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50752807CABE009B7BF4 /* ViewController.swift */; };
 		899D50792807CABE009B7BF4 /* StartingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D50772807CABE009B7BF4 /* StartingScreen.storyboard */; };
 		899D507B2807CAC0009B7BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899D507A2807CAC0009B7BF4 /* Assets.xcassets */; };
 		899D507E2807CAC0009B7BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D507C2807CAC0009B7BF4 /* LaunchScreen.storyboard */; };
@@ -98,10 +99,11 @@
 		892C185A2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jost-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 		892C185B2808E03200A83DF0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		892C187F28091D6E00A83DF0 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		892C18812809298300A83DF0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		892C18842809FB8900A83DF0 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
 		899D506E2807CABE009B7BF4 /* Unplanned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unplanned.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899D50712807CABE009B7BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899D50732807CABE009B7BF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		899D50752807CABE009B7BF4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		899D50782807CABE009B7BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/StartingScreen.storyboard; sourceTree = "<group>"; };
 		899D507A2807CAC0009B7BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899D507D2807CAC0009B7BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -195,6 +197,21 @@
 			path = static;
 			sourceTree = "<group>";
 		};
+		892C18832809FB4C00A83DF0 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				892C18812809298300A83DF0 /* SignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		892C18862809FB9400A83DF0 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
 		899D50652807CABE009B7BF4 = {
 			isa = PBXGroup;
 			children = (
@@ -241,8 +258,9 @@
 			children = (
 				899D507C2807CAC0009B7BF4 /* LaunchScreen.storyboard */,
 				899D50772807CABE009B7BF4 /* StartingScreen.storyboard */,
-				892C18332808D8AF00A83DF0 /* Home.storyboard */,
 				892C187F28091D6E00A83DF0 /* SignUp.storyboard */,
+				892C18842809FB8900A83DF0 /* LogIn.storyboard */,
+				892C18332808D8AF00A83DF0 /* Home.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -250,18 +268,19 @@
 		899D50872807D708009B7BF4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				899D50882807DC92009B7BF4 /* Starting Screen */,
+				892C18862809FB9400A83DF0 /* LogIn */,
+				892C18832809FB4C00A83DF0 /* SignUp */,
+				899D50882807DC92009B7BF4 /* Starting */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		899D50882807DC92009B7BF4 /* Starting Screen */ = {
+		899D50882807DC92009B7BF4 /* Starting */ = {
 			isa = PBXGroup;
 			children = (
-				899D50752807CABE009B7BF4 /* ViewController.swift */,
 				892C182F2808B36F00A83DF0 /* StartingViewController.swift */,
 			);
-			path = "Starting Screen";
+			path = Starting;
 			sourceTree = "<group>";
 		};
 		906B179F69C6E1673EA99657 /* Frameworks */ = {
@@ -368,6 +387,7 @@
 				892C187D2808E03200A83DF0 /* Jost-Italic-VariableFont_wght.ttf in Resources */,
 				899D50792807CABE009B7BF4 /* StartingScreen.storyboard in Resources */,
 				892C18792808E03200A83DF0 /* Jost-SemiBoldItalic.ttf in Resources */,
+				892C18852809FB8900A83DF0 /* LogIn.storyboard in Resources */,
 				892C18612808E03200A83DF0 /* Roboto-BoldItalic.ttf in Resources */,
 				892C18342808D8AF00A83DF0 /* Home.storyboard in Resources */,
 				892C18692808E03200A83DF0 /* Jost-VariableFont_wght.ttf in Resources */,
@@ -424,8 +444,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				892C18822809298300A83DF0 /* SignUpViewController.swift in Sources */,
 				892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */,
-				899D50762807CABE009B7BF4 /* ViewController.swift in Sources */,
 				899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */,
 				892C18302808B36F00A83DF0 /* StartingViewController.swift in Sources */,
 				899D50742807CABE009B7BF4 /* SceneDelegate.swift in Sources */,
