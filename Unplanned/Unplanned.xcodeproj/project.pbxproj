@@ -50,6 +50,7 @@
 		892C18852809FB8900A83DF0 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892C18842809FB8900A83DF0 /* LogIn.storyboard */; };
 		892C188B280A244C00A83DF0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C188A280A244C00A83DF0 /* HomeViewController.swift */; };
 		892C188D280A331200A83DF0 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C188C280A331200A83DF0 /* LogInViewController.swift */; };
+		892C188F280A719900A83DF0 /* SignUp_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C188E280A719900A83DF0 /* SignUp_2_ViewController.swift */; };
 		899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50712807CABE009B7BF4 /* AppDelegate.swift */; };
 		899D50742807CABE009B7BF4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899D50732807CABE009B7BF4 /* SceneDelegate.swift */; };
 		899D50792807CABE009B7BF4 /* StartingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D50772807CABE009B7BF4 /* StartingScreen.storyboard */; };
@@ -105,6 +106,7 @@
 		892C18842809FB8900A83DF0 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
 		892C188A280A244C00A83DF0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		892C188C280A331200A83DF0 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		892C188E280A719900A83DF0 /* SignUp_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_2_ViewController.swift; sourceTree = "<group>"; };
 		899D506E2807CABE009B7BF4 /* Unplanned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Unplanned.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899D50712807CABE009B7BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899D50732807CABE009B7BF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				892C18812809298300A83DF0 /* SignUpViewController.swift */,
+				892C188E280A719900A83DF0 /* SignUp_2_ViewController.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -463,6 +466,7 @@
 				899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */,
 				892C188D280A331200A83DF0 /* LogInViewController.swift in Sources */,
 				892C18302808B36F00A83DF0 /* StartingViewController.swift in Sources */,
+				892C188F280A719900A83DF0 /* SignUp_2_ViewController.swift in Sources */,
 				892C188B280A244C00A83DF0 /* HomeViewController.swift in Sources */,
 				899D50742807CABE009B7BF4 /* SceneDelegate.swift in Sources */,
 			);

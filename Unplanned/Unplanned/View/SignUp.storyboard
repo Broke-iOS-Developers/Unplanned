@@ -138,10 +138,10 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
-        <!--Sign Up View Controller-->
+        <!--Sign Up2 View Controller-->
         <scene sceneID="UxR-Ho-Mhg">
             <objects>
-                <viewController id="8P7-mV-5H3" customClass="SignUpViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8P7-mV-5H3" customClass="SignUp_2_ViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TWY-nw-nOp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
