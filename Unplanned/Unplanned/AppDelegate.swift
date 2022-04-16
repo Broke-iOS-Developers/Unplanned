@@ -7,19 +7,25 @@
 
 import UIKit
 import Parse
+import IQKeyboardManagerSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
+    
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //Parse Configuration
         let configuration = ParseClientConfiguration {
             $0.applicationId = "l106UQct8EnEDMi0M94ldAi1OHnFkC9EqULqFYtz"
             $0.clientKey = "BoHoiUaw6XFedJPNMvDDS59Zy13aI9m3SDybWXCy"
             $0.server = "https://parseapi.back4app.com"
         }
         Parse.initialize(with: configuration)
+        
+        //IQKeyboardManager Configuration
+        IQKeyboardManager.shared.enable = true
+        
         return true
     }
 

@@ -6,7 +6,7 @@ target 'Unplanned' do
   use_frameworks!
 
 	pod 'Parse'
-	
+  pod 'IQKeyboardManagerSwift'
   # Pods for Unplanned
 
 end
