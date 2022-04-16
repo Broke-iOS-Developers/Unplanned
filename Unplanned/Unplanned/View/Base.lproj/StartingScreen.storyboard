@@ -42,6 +42,9 @@
                                     <fontDescription key="titleFontDescription" name="Roboto-Bold" family="Roboto" pointSize="12"/>
                                     <color key="baseBackgroundColor" name="Primary 3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3U7-n6-3Qw"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

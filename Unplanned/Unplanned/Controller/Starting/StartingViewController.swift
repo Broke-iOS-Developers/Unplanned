@@ -40,7 +40,13 @@ class StartingViewController: UIViewController {
         
     }
     
-
+    @IBAction func loginButtonPressed(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "toLogIn", sender: self)
+        
+        
+    }
+    
     /*
     // MARK: - Navigation
 

@@ -45,11 +45,12 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="btj-iQ-fl3">
                                 <rect key="frame" x="20" y="357" width="374" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYj-J7-YEL">
-                                <rect key="frame" x="20" y="314" width="111" height="35"/>
+                                <rect key="frame" x="20" y="314" width="110.5" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -57,11 +58,12 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lfB-pc-HEr">
                                 <rect key="frame" x="20" y="474" width="374" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpd-fL-ZbG">
-                                <rect key="frame" x="20" y="431" width="107" height="35"/>
+                                <rect key="frame" x="20" y="431" width="106.5" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -69,11 +71,12 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="776-fe-LCl">
                                 <rect key="frame" x="20" y="591" width="374" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtQ-97-0RQ">
-                                <rect key="frame" x="20" y="548" width="156" height="35"/>
+                                <rect key="frame" x="20" y="548" width="155.5" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -89,7 +92,7 @@
                                     <color key="baseBackgroundColor" name="Accent 1"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="nextButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="g3n-dN-nYb"/>
+                                    <action selector="nextButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="vfs-Nq-Dwi"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -124,10 +127,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="firstNameTextField" destination="btj-iQ-fl3" id="ZE7-nL-yeX"/>
-                        <outlet property="lastNameTextField" destination="lfB-pc-HEr" id="AZF-6A-r41"/>
-                        <outlet property="nextButton" destination="xd1-jY-C4h" id="ABw-SO-Gy4"/>
-                        <outlet property="phoneNumberTextField" destination="776-fe-LCl" id="1CU-cl-Hyg"/>
+                        <outlet property="firstNameTextField" destination="btj-iQ-fl3" id="z1i-PQ-8fe"/>
+                        <outlet property="lastNameTextField" destination="lfB-pc-HEr" id="YOf-8k-hEe"/>
+                        <outlet property="nextButton" destination="xd1-jY-C4h" id="yhd-8D-QPS"/>
+                        <outlet property="phoneNumberTextField" destination="776-fe-LCl" id="CGo-IB-cfs"/>
                         <segue destination="8P7-mV-5H3" kind="show" identifier="toNextStep" id="N4p-C4-Bc2"/>
                     </connections>
                 </viewController>
@@ -161,6 +164,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k39-Ne-t9x">
                                 <rect key="frame" x="20" y="357.5" width="374" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -173,6 +177,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="etb-Rh-oWb">
                                 <rect key="frame" x="20" y="474.5" width="374" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
