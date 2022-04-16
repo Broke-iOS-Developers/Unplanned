@@ -51,17 +51,17 @@ class SignUpViewController: UIViewController {
         
         //Sets the first sign up screen information to User Defualts
         if (firstNameTextField.text != "" && lastNameTextField.text != ""){
-            defaults.set(firstNameTextField.text, forKey: "firstName")
-            defaults.set(lastNameTextField.text, forKey: "lastName")
+            defaults.set(firstNameTextField.text, forKey: K.Keys.firstName)
+            defaults.set(lastNameTextField.text, forKey: K.Keys.lastName)
             
             //Phone Number is optional | Sets it to 0 if nothing is entered
             if (phoneNumberTextField.text != ""){
-                defaults.set(phoneNumberTextField.text, forKey: "phoneNumber")
+                defaults.set(phoneNumberTextField.text, forKey: K.Keys.phoneNumber)
             } else {
-                defaults.set(0, forKey: "phoneNumber")
+                defaults.set(0, forKey: K.Keys.phoneNumber)
             }
             
-            performSegue(withIdentifier: "toNextStep", sender: nil)
+            performSegue(withIdentifier: K.Segue.nextStep, sender: nil)
 
         } else {
             //Shows an alert if firstName or lastName textfield is empty
@@ -75,11 +75,6 @@ class SignUpViewController: UIViewController {
                     self.present(alert, animated: true, completion: nil)
         }
         
-        
-    }
-    
-    @IBAction func registerButtonPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "toEnjoyScreen", sender: nil)
         
     }
     

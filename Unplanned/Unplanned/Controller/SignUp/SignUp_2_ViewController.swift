@@ -22,7 +22,10 @@ class SignUp_2_ViewController: UIViewController {
     
     
     @IBAction func registerButtonPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "toEnjoyScreen", sender: nil)
+        
+        //Goes to enjoy screen
+        performSegue(withIdentifier: K.Segue.enjoy, sender: nil)
+        
         
     }
 

@@ -19,7 +19,7 @@ class LogInViewController: UIViewController {
     }
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
-        performSegue(withIdentifier: "toHomeFromLogIn", sender: self)
+        performSegue(withIdentifier: K.Segue.loginToHome, sender: self)
     }
     
     /*

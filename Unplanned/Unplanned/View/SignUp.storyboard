@@ -269,7 +269,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="dju-VZ-HcN"/>
                     <connections>
-                        <segue destination="Fg5-8e-jPR" kind="presentation" identifier="toHomeScreen" id="bLg-oC-UMi"/>
+                        <segue destination="Fg5-8e-jPR" kind="presentation" identifier="SignUptoHome" id="bLg-oC-UMi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5bl-Vx-zWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

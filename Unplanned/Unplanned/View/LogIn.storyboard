@@ -106,7 +106,7 @@
                         <outlet property="emailTextField" destination="6Eg-Pz-z82" id="fhD-Vd-olh"/>
                         <outlet property="loginButton" destination="KAt-0y-7zg" id="feX-WI-028"/>
                         <outlet property="passwordTextField" destination="1SU-wu-K35" id="Cal-dJ-Nwr"/>
-                        <segue destination="ULk-kb-LgV" kind="show" identifier="toHomeFromLogIn" id="3Ko-pE-Eb7"/>
+                        <segue destination="ULk-kb-LgV" kind="show" identifier="LoginToHome" id="3Ko-pE-Eb7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDV-CA-BV5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

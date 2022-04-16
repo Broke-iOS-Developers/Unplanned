@@ -35,14 +35,14 @@ class StartingViewController: UIViewController {
     
     @IBAction func getStartedButtonPressed(_ sender: UIButton) {
         
-        performSegue(withIdentifier: "toSignUp", sender: self)
+        performSegue(withIdentifier: K.Segue.signUp, sender: self)
         
         
     }
     
     @IBAction func loginButtonPressed(_ sender: UIButton) {
         
-        performSegue(withIdentifier: "toLogIn", sender: self)
+        performSegue(withIdentifier: K.Segue.login, sender: self)
         
         
     }
