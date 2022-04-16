@@ -18,18 +18,12 @@ class SignUpViewController: UIViewController {
             nextButton.layer.masksToBounds = true
         }
     }
-    @IBOutlet weak var registerButton: UIButton! {
-        didSet{
-            registerButton.layer.cornerRadius = 10
-            registerButton.layer.masksToBounds = true
-        }
-    }
     
     //Textfields
     @IBOutlet weak var firstNameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
-    @IBOutlet weak var phoneNumberTextField: UITextField!
- 
+    @IBOutlet weak var emailTextField: UITextField!
+    
     
     
     //Global Variables
@@ -41,8 +35,8 @@ class SignUpViewController: UIViewController {
         
         firstNameTextField.delegate = self
         lastNameTextField.delegate = self
-        phoneNumberTextField.delegate = self
-            
+        emailTextField.delegate = self
+        
         
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
     }
@@ -50,36 +44,33 @@ class SignUpViewController: UIViewController {
     @IBAction func nextButtonPressed(_ sender: UIButton) {
         
         //Sets the first sign up screen information to User Defualts
-        if (firstNameTextField.text != "" && lastNameTextField.text != ""){
+        if (!(firstNameTextField.text?.isEmpty ?? true)
+            && !(lastNameTextField.text?.isEmpty ?? true)
+            && !(emailTextField.text?.isEmpty ?? true)){
+            
             defaults.set(firstNameTextField.text, forKey: K.Keys.firstName)
             defaults.set(lastNameTextField.text, forKey: K.Keys.lastName)
-            
-            //Phone Number is optional | Sets it to 0 if nothing is entered
-            if (phoneNumberTextField.text != ""){
-                defaults.set(phoneNumberTextField.text, forKey: K.Keys.phoneNumber)
-            } else {
-                defaults.set(0, forKey: K.Keys.phoneNumber)
-            }
+            defaults.set(emailTextField.text, forKey: K.Keys.email)
             
             performSegue(withIdentifier: K.Segue.nextStep, sender: nil)
-
+            
         } else {
             //Shows an alert if firstName or lastName textfield is empty
-            let message = "First or last name field(s) are empty."
+            let message = "One or more fields are empty."
             let alert = UIAlertController(title: "Oops!", message: message, preferredStyle: UIAlertController.Style.alert)
-
-                    // add an action (button)
-                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-
-                    // show the alert
-                    self.present(alert, animated: true, completion: nil)
+            
+            // add an action (button)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            
+            // show the alert
+            self.present(alert, animated: true, completion: nil)
         }
         
         
     }
     
     
-
+    
 }
 
 extension SignUpViewController: UITextFieldDelegate{
@@ -93,7 +84,7 @@ extension SignUpViewController: UITextFieldDelegate{
             lastNameTextField.becomeFirstResponder()
         } else if (textField == lastNameTextField){
             textField.resignFirstResponder()
-            phoneNumberTextField.becomeFirstResponder()
+            emailTextField.becomeFirstResponder()
         } else{
             textField.resignFirstResponder()
         }

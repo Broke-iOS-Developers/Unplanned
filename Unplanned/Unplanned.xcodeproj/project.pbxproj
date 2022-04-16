@@ -57,6 +57,7 @@
 		899D50792807CABE009B7BF4 /* StartingScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D50772807CABE009B7BF4 /* StartingScreen.storyboard */; };
 		899D507B2807CAC0009B7BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899D507A2807CAC0009B7BF4 /* Assets.xcassets */; };
 		899D507E2807CAC0009B7BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D507C2807CAC0009B7BF4 /* LaunchScreen.storyboard */; };
+		89DF5E2B280B567600EFBEFE /* SignUp_3_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */; };
 		F0481B0DA4D32B618454C96D /* Pods_Unplanned.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0808873ADF5A5B62AA9B2A09 /* Pods_Unplanned.framework */; };
 /* End PBXBuildFile section */
 
@@ -116,6 +117,7 @@
 		899D507A2807CAC0009B7BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		899D507D2807CAC0009B7BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		899D507F2807CAC0009B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_3_ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +212,7 @@
 			children = (
 				892C18812809298300A83DF0 /* SignUpViewController.swift */,
 				892C188E280A719900A83DF0 /* SignUp_2_ViewController.swift */,
+				89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */,
 				899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */,
 				892C188D280A331200A83DF0 /* LogInViewController.swift in Sources */,
+				89DF5E2B280B567600EFBEFE /* SignUp_3_ViewController.swift in Sources */,
 				892C18302808B36F00A83DF0 /* StartingViewController.swift in Sources */,
 				892C188F280A719900A83DF0 /* SignUp_2_ViewController.swift in Sources */,
 				892C188B280A244C00A83DF0 /* HomeViewController.swift in Sources */,

@@ -28,6 +28,7 @@ struct K{
         static let firstName = "firstName"
         static let lastName = "lastName"
         static let phoneNumber = "phoneNumber"
+        static let username = "username"
         static let email = "email"
     }
 }

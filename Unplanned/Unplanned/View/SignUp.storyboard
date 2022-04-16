@@ -47,7 +47,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next" textContentType="name"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYj-J7-YEL">
                                 <rect key="frame" x="20" y="314" width="110.5" height="35"/>
@@ -60,7 +60,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="next" textContentType="name"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpd-fL-ZbG">
                                 <rect key="frame" x="20" y="431" width="106.5" height="35"/>
@@ -73,10 +73,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" textContentType="email"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtQ-97-0RQ">
-                                <rect key="frame" x="20" y="548" width="155.5" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtQ-97-0RQ">
+                                <rect key="frame" x="20" y="548" width="55.5" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -127,10 +127,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="776-fe-LCl" id="CGo-IB-cfs"/>
                         <outlet property="firstNameTextField" destination="btj-iQ-fl3" id="z1i-PQ-8fe"/>
                         <outlet property="lastNameTextField" destination="lfB-pc-HEr" id="YOf-8k-hEe"/>
                         <outlet property="nextButton" destination="xd1-jY-C4h" id="yhd-8D-QPS"/>
-                        <outlet property="phoneNumberTextField" destination="776-fe-LCl" id="CGo-IB-cfs"/>
                         <segue destination="8P7-mV-5H3" kind="show" identifier="toNextStep" id="N4p-C4-Bc2"/>
                     </connections>
                 </viewController>
@@ -166,10 +166,10 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="username"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Co-xf-Oa6">
-                                <rect key="frame" x="20" y="314.5" width="56" height="35"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Co-xf-Oa6">
+                                <rect key="frame" x="20" y="314.5" width="101" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -179,7 +179,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSn-YZ-V3L">
                                 <rect key="frame" x="20" y="431.5" width="95" height="35"/>
@@ -229,9 +229,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="UGy-cG-Izi"/>
                     <connections>
-                        <outlet property="emailTextField" destination="k39-Ne-t9x" id="qrw-5u-ZR6"/>
                         <outlet property="passwordTextField" destination="etb-Rh-oWb" id="9cc-il-hR3"/>
-                        <outlet property="registerButton" destination="nLQ-1a-zl6" id="YMW-rW-ZNM"/>
+                        <outlet property="registerButton" destination="nLQ-1a-zl6" id="6Va-WZ-8nW"/>
+                        <outlet property="usernameTextField" destination="k39-Ne-t9x" id="qrw-5u-ZR6"/>
                         <segue destination="F14-6f-nag" kind="show" identifier="toEnjoyScreen" id="x3f-nu-XtG"/>
                     </connections>
                 </viewController>
@@ -239,10 +239,10 @@
             </objects>
             <point key="canvasLocation" x="1009" y="116"/>
         </scene>
-        <!--Sign Up View Controller-->
+        <!--Sign Up3 View Controller-->
         <scene sceneID="9BR-hG-JEo">
             <objects>
-                <viewController id="F14-6f-nag" customClass="SignUpViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="F14-6f-nag" customClass="SignUp_3_ViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bJ2-dD-xBV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -269,7 +269,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="dju-VZ-HcN"/>
                     <connections>
-                        <segue destination="Fg5-8e-jPR" kind="presentation" identifier="SignUptoHome" id="bLg-oC-UMi"/>
+                        <segue destination="Fg5-8e-jPR" kind="show" identifier="SignUptoHome" id="bLg-oC-UMi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5bl-Vx-zWH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -279,7 +279,9 @@
         <!--Home-->
         <scene sceneID="t2N-8x-QQL">
             <objects>
-                <viewControllerPlaceholder storyboardName="Home" id="Fg5-8e-jPR" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Home" id="Fg5-8e-jPR" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="m70-y3-1LA"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uEd-ng-7TV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2437" y="3"/>
