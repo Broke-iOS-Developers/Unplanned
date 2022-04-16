@@ -131,3 +131,12 @@ App that takes points of interest around a given area and chooses one of those f
 - (`UPDATE`) user will be update all thier account information
 - (`DELETE`) the user will be able to delete the account from the database
 
+
+
+## Milestones
+
+### Milestone 2
+
+#### Progress GIF
+<img src="https://media.giphy.com/media/DRaQfdIK2rteeH8Ar1/giphy.gif">
+
