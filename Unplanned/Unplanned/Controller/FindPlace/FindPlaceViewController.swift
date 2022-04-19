@@ -1,21 +1,21 @@
 //
-//  SignUp_3_ViewController.swift
+//  FindPlaceViewController.swift
 //  Unplanned
 //
-//  Created by Shoaib Huq on 4/16/22.
+//  Created by Shoaib Huq on 4/19/22.
 //
 
 import UIKit
 
-class SignUp_3_ViewController: UIViewController {
+class FindPlaceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
-            self.performSegue(withIdentifier: K.Segue.signUpToHome, sender: self)        }
+
+        // Do any additional setup after loading the view.
     }
     
-    
+
     /*
     // MARK: - Navigation
 

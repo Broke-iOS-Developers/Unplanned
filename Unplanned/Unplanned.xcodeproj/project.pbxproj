@@ -58,6 +58,8 @@
 		899D507B2807CAC0009B7BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899D507A2807CAC0009B7BF4 /* Assets.xcassets */; };
 		899D507E2807CAC0009B7BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D507C2807CAC0009B7BF4 /* LaunchScreen.storyboard */; };
 		89DF5E2B280B567600EFBEFE /* SignUp_3_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */; };
+		89DF5E2D280F4BBC00EFBEFE /* FindPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */; };
+		89DF5E30280F4BD900EFBEFE /* FindPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */; };
 		F0481B0DA4D32B618454C96D /* Pods_Unplanned.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0808873ADF5A5B62AA9B2A09 /* Pods_Unplanned.framework */; };
 /* End PBXBuildFile section */
 
@@ -118,6 +120,8 @@
 		899D507D2807CAC0009B7BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		899D507F2807CAC0009B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_3_ViewController.swift; sourceTree = "<group>"; };
+		89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FindPlace.storyboard; sourceTree = SOURCE_ROOT; };
+		89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +287,7 @@
 				892C187F28091D6E00A83DF0 /* SignUp.storyboard */,
 				892C18842809FB8900A83DF0 /* LogIn.storyboard */,
 				892C18332808D8AF00A83DF0 /* Home.storyboard */,
+				89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -290,6 +295,7 @@
 		899D50872807D708009B7BF4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				89DF5E2E280F4BC800EFBEFE /* FindPlace */,
 				892C1889280A242700A83DF0 /* Home */,
 				892C18862809FB9400A83DF0 /* LogIn */,
 				892C18832809FB4C00A83DF0 /* SignUp */,
@@ -304,6 +310,14 @@
 				892C182F2808B36F00A83DF0 /* StartingViewController.swift */,
 			);
 			path = Starting;
+			sourceTree = "<group>";
+		};
+		89DF5E2E280F4BC800EFBEFE /* FindPlace */ = {
+			isa = PBXGroup;
+			children = (
+				89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */,
+			);
+			path = FindPlace;
 			sourceTree = "<group>";
 		};
 		906B179F69C6E1673EA99657 /* Frameworks */ = {
@@ -377,6 +391,7 @@
 				892C18672808E03200A83DF0 /* Roboto-Thin.ttf in Resources */,
 				892C185C2808E03200A83DF0 /* Roboto-Medium.ttf in Resources */,
 				892C18632808E03200A83DF0 /* Roboto-Italic.ttf in Resources */,
+				89DF5E2D280F4BBC00EFBEFE /* FindPlace.storyboard in Resources */,
 				892C18702808E03200A83DF0 /* Jost-Thin.ttf in Resources */,
 				892C18662808E03200A83DF0 /* Roboto-Bold.ttf in Resources */,
 				892C187B2808E03200A83DF0 /* Jost-MediumItalic.ttf in Resources */,
@@ -467,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DF5E30280F4BD900EFBEFE /* FindPlaceViewController.swift in Sources */,
 				892C18822809298300A83DF0 /* SignUpViewController.swift in Sources */,
 				892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */,
 				899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */,
@@ -631,6 +647,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = StartingScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -662,6 +679,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = StartingScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
