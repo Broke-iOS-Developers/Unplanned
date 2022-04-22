@@ -10,7 +10,12 @@ import Parse
 
 class LogInViewController: UIViewController {
 
-    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!{
+        didSet{
+            loginButton.layer.cornerRadius = 10
+            loginButton.layer.masksToBounds = true
+        }
+    }
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     override func viewDidLoad() {

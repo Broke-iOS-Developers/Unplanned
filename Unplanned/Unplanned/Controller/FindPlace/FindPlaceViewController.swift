@@ -8,12 +8,39 @@
 import UIKit
 
 class FindPlaceViewController: UIViewController {
-
+    @IBOutlet weak var backButton: UIImageView!
+    @IBOutlet weak var categoryView: UIView!{
+        didSet{
+            categoryView.layer.cornerRadius = 20
+            categoryView.layer.masksToBounds = true
+        }
+    }
+    @IBOutlet weak var mapView: UIView!{
+        didSet{
+            mapView.layer.cornerRadius = 20
+            mapView.layer.masksToBounds = true
+        }
+    }
+    @IBOutlet weak var filtersView: UIView!{
+        didSet{
+            filtersView.layer.cornerRadius = 20
+            filtersView.layer.masksToBounds = true
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
+   
+    @IBOutlet weak var searchButton: UIButton!{
+        didSet{
+            searchButton.layer.cornerRadius = 20
+            searchButton.layer.masksToBounds = true
+        }
+    }
+    
     
 
     /*
