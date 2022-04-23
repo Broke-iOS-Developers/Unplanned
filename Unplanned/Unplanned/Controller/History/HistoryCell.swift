@@ -9,6 +9,7 @@ import UIKit
 
 class HistoryCell: UITableViewCell {
     
+    @IBOutlet weak var searchNameLabel: UILabel!
     
 
     override func awakeFromNib() {
