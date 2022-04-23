@@ -31,7 +31,6 @@ class LogInViewController: UIViewController {
             if user != nil {
                 // Do stuff after successful login.
                 self.performSegue(withIdentifier: K.Segue.loginToHome, sender: nil)
-
             } else {
                 if let error = error {
                     let errorString = error.localizedDescription
