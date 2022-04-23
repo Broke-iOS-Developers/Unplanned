@@ -4,26 +4,55 @@
 //
 //  Created by Shoaib Huq on 4/15/22.
 //
+//
 
+import Parse
 import UIKit
 
+
 class HomeViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    var name = [PFObject]()
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    
+    @IBOutlet weak var findPlaceButton: UIView! {
+        didSet{
+            
+        findPlaceButton.layer.cornerRadius = 20
+        findPlaceButton.layer.masksToBounds = true
+            
+        }
     }
-    */
+    @IBOutlet weak var favButton: UIView!{
+        didSet{
+            
+        favButton.layer.cornerRadius = 20
+        favButton.layer.masksToBounds = true
+            
+        }
+    }
+    @IBOutlet weak var prevPlacesButton: UIView!{
+        didSet{
+            
+        prevPlacesButton.layer.cornerRadius = 20
+        prevPlacesButton.layer.masksToBounds = true
+            
+        }
+    }
+    
+    
+    @IBOutlet weak var greetingLabel: UILabel!
+    
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let user = PFUser.current()
+        let firstName = user!.object(forKey: "firstName")
+        nameLabel.text = firstName as? String
+    }
 
 }
