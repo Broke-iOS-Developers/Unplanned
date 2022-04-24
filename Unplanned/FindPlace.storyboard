@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3h7-D6-kvE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -19,11 +19,11 @@
         <array key="Jost-Medium.ttf">
             <string>Jost-Medium</string>
         </array>
+        <array key="Jost-Regular.ttf">
+            <string>Jost-Regular</string>
+        </array>
         <array key="Jost-SemiBold.ttf">
             <string>Jost-SemiBold</string>
-        </array>
-        <array key="Jost-VariableFont_wght.ttf">
-            <string>Jost-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -57,8 +57,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GWi-DH-iPb">
-                                        <rect key="frame" x="231.33333333333334" y="20" width="62.666666666666657" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GWi-DH-iPb">
+                                        <rect key="frame" x="231.33333333333334" y="20" width="63.666666666666657" height="40"/>
                                         <menu key="menu" id="Qqc-h4-Y84">
                                             <children>
                                                 <command title="Item 1" id="bvd-lJ-nMp"/>
@@ -74,6 +74,7 @@
                                 <color key="backgroundColor" name="Accent 1"/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="GWi-DH-iPb" secondAttribute="bottom" constant="20" id="3TU-PO-Hf9"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GWi-DH-iPb" secondAttribute="trailing" constant="20" id="8Th-RT-pl2"/>
                                     <constraint firstItem="xFd-Wt-gGY" firstAttribute="leading" secondItem="qFv-3v-qMT" secondAttribute="leading" constant="60" id="Tcg-yH-mBj"/>
                                     <constraint firstItem="GWi-DH-iPb" firstAttribute="leading" secondItem="xFd-Wt-gGY" secondAttribute="trailing" constant="28" id="V4r-ez-HIO"/>
                                     <constraint firstAttribute="bottom" secondItem="xFd-Wt-gGY" secondAttribute="bottom" constant="8" id="YgH-dR-qez"/>
@@ -94,14 +95,14 @@
                                             <constraint firstAttribute="height" constant="160" id="yQF-9y-5AA"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delivers:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIZ-cT-rvY">
-                                        <rect key="frame" x="196" y="106.33333333333331" width="66.333333333333314" height="26.333333333333343"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Open:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIZ-cT-rvY">
+                                        <rect key="frame" x="196" y="106.33333333333331" width="48.666666666666657" height="27"/>
                                         <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Er6-NK-L0Z">
-                                        <rect key="frame" x="196" y="152.66666666666663" width="43.666666666666657" height="26.333333333333343"/>
+                                        <rect key="frame" x="196" y="153.33333333333331" width="43.666666666666657" height="26.333333333333343"/>
                                         <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -113,7 +114,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4L-Pt-pC0">
-                                        <rect key="frame" x="280.33333333333331" y="57.666666666666629" width="53.666666666666686" height="31"/>
+                                        <rect key="frame" x="263.33333333333331" y="57.666666666666629" width="70.666666666666686" height="31"/>
                                         <menu key="menu" id="Sct-5I-IKC">
                                             <children>
                                                 <command title="1+" id="oG1-bq-KVR"/>
@@ -130,7 +131,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GPb-bd-aC9">
-                                        <rect key="frame" x="281.33333333333331" y="104.66666666666663" width="52.666666666666686" height="30"/>
+                                        <rect key="frame" x="264.66666666666669" y="105" width="69.333333333333314" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="nvx-uP-lSz"/>
                                         </constraints>
@@ -147,7 +148,7 @@
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Jk-DK-Lea">
-                                        <rect key="frame" x="279.66666666666669" y="150.33333333333331" width="54.333333333333314" height="31"/>
+                                        <rect key="frame" x="262.33333333333331" y="151" width="71.666666666666686" height="31"/>
                                         <menu key="menu" id="kPr-5Y-Eom">
                                             <children>
                                                 <command title="$" id="I3n-Mo-YQ0"/>
@@ -227,6 +228,9 @@
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" name="Accent 1"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="searchButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="6eM-2r-ABL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -250,9 +254,14 @@
                     </view>
                     <connections>
                         <outlet property="backButton" destination="EIr-j4-brV" id="pRx-Lb-xp1"/>
+                        <outlet property="categoryMenuButton" destination="GWi-DH-iPb" id="VKH-Se-P40"/>
                         <outlet property="categoryView" destination="qFv-3v-qMT" id="ied-9J-Ojr"/>
                         <outlet property="filtersView" destination="xz3-hH-qSR" id="LVs-BH-AyX"/>
                         <outlet property="mapView" destination="JtA-zp-Wy5" id="8g3-bo-Yj0"/>
+                        <outlet property="openMenuButton" destination="GPb-bd-aC9" id="PiT-0j-zTB"/>
+                        <outlet property="priceMenuButton" destination="4Jk-DK-Lea" id="KHk-1u-xAB"/>
+                        <outlet property="radiusTextField" destination="hEE-gb-y23" id="8hH-cb-rHw"/>
+                        <outlet property="ratingMenuButton" destination="g4L-Pt-pC0" id="RgO-S3-lEA"/>
                         <outlet property="searchButton" destination="qPZ-M9-gxP" id="wWs-Bq-gQE"/>
                         <segue destination="3h7-D6-kvE" kind="show" id="c1a-4b-nvj"/>
                     </connections>
@@ -508,8 +517,8 @@
         <image name="backButton-1" width="80" height="33"/>
         <image name="newSearchButton" width="122" height="33"/>
         <image name="phone.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="star" width="26" height="28"/>
         <image name="star" catalog="system" width="128" height="116"/>
+        <image name="star" width="26" height="28"/>
         <image name="star_border" width="26" height="28"/>
         <image name="star_half" width="26" height="28"/>
         <namedColor name="Accent 1">
