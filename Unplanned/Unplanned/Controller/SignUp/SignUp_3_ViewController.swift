@@ -11,7 +11,7 @@ class SignUp_3_ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             self.performSegue(withIdentifier: K.Segue.signUpToHome, sender: self)        }
     }
     

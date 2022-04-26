@@ -21,6 +21,7 @@ struct K{
         static let enjoy = "toEnjoyScreen"
         static let signUpToHome = "SignUptoHome"
         static let loginToHome = "LoginToHome"
+        static let findPlace = "toFindPlace2"
     }
     
     //For User Defualts

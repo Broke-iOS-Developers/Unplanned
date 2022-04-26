@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8923C2BC2813B18F007CB78E /* FindPlace_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8923C2BB2813B18F007CB78E /* FindPlace_2_ViewController.swift */; };
 		892C18302808B36F00A83DF0 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C182F2808B36F00A83DF0 /* StartingViewController.swift */; };
 		892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C18312808B78B00A83DF0 /* AppStoryboard.swift */; };
 		892C185C2808E03200A83DF0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18372808E03100A83DF0 /* Roboto-Medium.ttf */; };
@@ -58,6 +59,8 @@
 		899D507E2807CAC0009B7BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D507C2807CAC0009B7BF4 /* LaunchScreen.storyboard */; };
 		89A0E23F2814923400D1858D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A0E23E2814923400D1858D /* Home.storyboard */; };
 		89DF5E2B280B567600EFBEFE /* SignUp_3_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */; };
+		89DF5E2D280F4BBC00EFBEFE /* FindPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */; };
+		89DF5E30280F4BD900EFBEFE /* FindPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */; };
 		F0481B0DA4D32B618454C96D /* Pods_Unplanned.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0808873ADF5A5B62AA9B2A09 /* Pods_Unplanned.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +68,7 @@
 		0808873ADF5A5B62AA9B2A09 /* Pods_Unplanned.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Unplanned.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		280CCB1190C88AB95AB96A0C /* Pods-Unplanned.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unplanned.debug.xcconfig"; path = "Target Support Files/Pods-Unplanned/Pods-Unplanned.debug.xcconfig"; sourceTree = "<group>"; };
 		4FC34526B51FDAED520D466A /* Pods-Unplanned.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unplanned.release.xcconfig"; path = "Target Support Files/Pods-Unplanned/Pods-Unplanned.release.xcconfig"; sourceTree = "<group>"; };
+		8923C2BB2813B18F007CB78E /* FindPlace_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPlace_2_ViewController.swift; sourceTree = "<group>"; };
 		892C182F2808B36F00A83DF0 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
 		892C18312808B78B00A83DF0 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
 		892C18372808E03100A83DF0 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 		899D507F2807CAC0009B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A0E23E2814923400D1858D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_3_ViewController.swift; sourceTree = "<group>"; };
+		89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FindPlace.storyboard; sourceTree = SOURCE_ROOT; };
+		89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPlaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +288,7 @@
 				899D50772807CABE009B7BF4 /* StartingScreen.storyboard */,
 				892C187F28091D6E00A83DF0 /* SignUp.storyboard */,
 				892C18842809FB8900A83DF0 /* LogIn.storyboard */,
+				89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */,
 				89A0E23E2814923400D1858D /* Home.storyboard */,
 			);
 			path = View;
@@ -290,6 +297,7 @@
 		899D50872807D708009B7BF4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				89DF5E2E280F4BC800EFBEFE /* FindPlace */,
 				892C1889280A242700A83DF0 /* Home */,
 				892C18862809FB9400A83DF0 /* LogIn */,
 				892C18832809FB4C00A83DF0 /* SignUp */,
@@ -304,6 +312,15 @@
 				892C182F2808B36F00A83DF0 /* StartingViewController.swift */,
 			);
 			path = Starting;
+			sourceTree = "<group>";
+		};
+		89DF5E2E280F4BC800EFBEFE /* FindPlace */ = {
+			isa = PBXGroup;
+			children = (
+				89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */,
+				8923C2BB2813B18F007CB78E /* FindPlace_2_ViewController.swift */,
+			);
+			path = FindPlace;
 			sourceTree = "<group>";
 		};
 		906B179F69C6E1673EA99657 /* Frameworks */ = {
@@ -377,6 +394,7 @@
 				892C18672808E03200A83DF0 /* Roboto-Thin.ttf in Resources */,
 				892C185C2808E03200A83DF0 /* Roboto-Medium.ttf in Resources */,
 				892C18632808E03200A83DF0 /* Roboto-Italic.ttf in Resources */,
+				89DF5E2D280F4BBC00EFBEFE /* FindPlace.storyboard in Resources */,
 				892C18702808E03200A83DF0 /* Jost-Thin.ttf in Resources */,
 				892C18662808E03200A83DF0 /* Roboto-Bold.ttf in Resources */,
 				892C187B2808E03200A83DF0 /* Jost-MediumItalic.ttf in Resources */,
@@ -467,6 +485,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8923C2BC2813B18F007CB78E /* FindPlace_2_ViewController.swift in Sources */,
+				89DF5E30280F4BD900EFBEFE /* FindPlaceViewController.swift in Sources */,
 				892C18822809298300A83DF0 /* SignUpViewController.swift in Sources */,
 				892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */,
 				899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */,
@@ -631,6 +651,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = StartingScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -663,6 +684,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = StartingScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
