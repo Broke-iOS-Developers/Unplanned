@@ -10,7 +10,6 @@
 		8923C2BC2813B18F007CB78E /* FindPlace_2_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8923C2BB2813B18F007CB78E /* FindPlace_2_ViewController.swift */; };
 		892C18302808B36F00A83DF0 /* StartingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C182F2808B36F00A83DF0 /* StartingViewController.swift */; };
 		892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892C18312808B78B00A83DF0 /* AppStoryboard.swift */; };
-		892C18342808D8AF00A83DF0 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 892C18332808D8AF00A83DF0 /* Home.storyboard */; };
 		892C185C2808E03200A83DF0 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18372808E03100A83DF0 /* Roboto-Medium.ttf */; };
 		892C185D2808E03200A83DF0 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18382808E03100A83DF0 /* Roboto-Light.ttf */; };
 		892C185E2808E03200A83DF0 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 892C18392808E03100A83DF0 /* Roboto-Regular.ttf */; };
@@ -71,7 +70,6 @@
 		8923C2BB2813B18F007CB78E /* FindPlace_2_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPlace_2_ViewController.swift; sourceTree = "<group>"; };
 		892C182F2808B36F00A83DF0 /* StartingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingViewController.swift; sourceTree = "<group>"; };
 		892C18312808B78B00A83DF0 /* AppStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
-		892C18332808D8AF00A83DF0 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		892C18372808E03100A83DF0 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		892C18382808E03100A83DF0 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		892C18392808E03100A83DF0 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
@@ -288,7 +286,6 @@
 				899D50772807CABE009B7BF4 /* StartingScreen.storyboard */,
 				892C187F28091D6E00A83DF0 /* SignUp.storyboard */,
 				892C18842809FB8900A83DF0 /* LogIn.storyboard */,
-				892C18332808D8AF00A83DF0 /* Home.storyboard */,
 				89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */,
 			);
 			path = View;
@@ -430,7 +427,6 @@
 				892C18792808E03200A83DF0 /* Jost-SemiBoldItalic.ttf in Resources */,
 				892C18852809FB8900A83DF0 /* LogIn.storyboard in Resources */,
 				892C18612808E03200A83DF0 /* Roboto-BoldItalic.ttf in Resources */,
-				892C18342808D8AF00A83DF0 /* Home.storyboard in Resources */,
 				892C18692808E03200A83DF0 /* Jost-VariableFont_wght.ttf in Resources */,
 				892C18752808E03200A83DF0 /* Jost-Regular.ttf in Resources */,
 			);

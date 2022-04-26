@@ -19,11 +19,11 @@
         <array key="Jost-Medium.ttf">
             <string>Jost-Medium</string>
         </array>
-        <array key="Jost-Regular.ttf">
-            <string>Jost-Regular</string>
-        </array>
         <array key="Jost-SemiBold.ttf">
             <string>Jost-SemiBold</string>
+        </array>
+        <array key="Jost-VariableFont_wght.ttf">
+            <string>Jost-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -263,7 +263,7 @@
                         <outlet property="radiusTextField" destination="hEE-gb-y23" id="8hH-cb-rHw"/>
                         <outlet property="ratingMenuButton" destination="g4L-Pt-pC0" id="RgO-S3-lEA"/>
                         <outlet property="searchButton" destination="qPZ-M9-gxP" id="wWs-Bq-gQE"/>
-                        <segue destination="3h7-D6-kvE" kind="show" id="c1a-4b-nvj"/>
+                        <segue destination="3h7-D6-kvE" kind="show" identifier="toFindPlace2" id="brJ-TV-txp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

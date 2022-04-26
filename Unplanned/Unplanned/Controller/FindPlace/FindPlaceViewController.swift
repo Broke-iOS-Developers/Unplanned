@@ -108,6 +108,7 @@ class FindPlaceViewController: UIViewController {
     
     // MARK: - Search Button
     @IBAction func searchButtonPressed(_ sender: UIButton) {
+        performSegue(withIdentifier: K.Segue.findPlace, sender: nil)
     }
     
     
