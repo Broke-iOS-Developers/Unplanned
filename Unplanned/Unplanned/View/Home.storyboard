@@ -8,11 +8,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Jost-Regular.ttf">
-            <string>Jost-Regular</string>
-        </array>
         <array key="Jost-SemiBold.ttf">
             <string>Jost-SemiBold</string>
+        </array>
+        <array key="Jost-VariableFont_wght.ttf">
+            <string>Jost-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -25,29 +25,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="appLogo" translatesAutoresizingMaskIntoConstraints="NO" id="09F-GD-1Sl">
-                                <rect key="frame" x="323" y="59" width="71" height="71"/>
+                                <rect key="frame" x="323" y="64" width="71" height="71"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="71" id="79E-Jv-vKe"/>
                                     <constraint firstAttribute="width" constant="71" id="mwR-uW-YQD"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Greetings," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ie-ZK-mVO">
-                                <rect key="frame" x="20" y="44" width="295" height="46.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Greetings," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ie-ZK-mVO">
+                                <rect key="frame" x="20" y="60" width="295" height="46.5"/>
                                 <fontDescription key="fontDescription" name="Jost-SemiBold" family="Jost" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="8bh-nb-EU6">
-                                <rect key="frame" x="20" y="172" width="374" height="172"/>
+                                <rect key="frame" x="20" y="177" width="374" height="160"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Find a place" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ps0-0v-trM">
-                                        <rect key="frame" x="124" y="36" width="242" height="96"/>
-                                        <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="34"/>
+                                        <rect key="frame" x="138.5" y="60.5" width="174.5" height="41"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="34"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="findPlaceButton" translatesAutoresizingMaskIntoConstraints="NO" id="7iu-EE-13S">
-                                        <rect key="frame" x="20" y="40" width="96" height="96"/>
+                                        <rect key="frame" x="20" y="25.5" width="109" height="109"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="7iu-EE-13S" secondAttribute="height" multiplier="1:1" id="roI-dG-Evg"/>
                                         </constraints>
@@ -56,18 +56,16 @@
                                 <color key="backgroundColor" name="Accent 1"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="172" id="Ap8-p6-DIR"/>
-                                    <constraint firstItem="Ps0-0v-trM" firstAttribute="leading" secondItem="7iu-EE-13S" secondAttribute="trailing" constant="8" id="E1i-Al-LSN"/>
-                                    <constraint firstAttribute="bottom" secondItem="Ps0-0v-trM" secondAttribute="bottom" constant="40" id="GHX-Lj-ngT"/>
-                                    <constraint firstItem="7iu-EE-13S" firstAttribute="top" secondItem="8bh-nb-EU6" secondAttribute="top" constant="40" id="OWg-9d-A27"/>
+                                    <constraint firstAttribute="height" constant="160" id="Ap8-p6-DIR"/>
+                                    <constraint firstItem="Ps0-0v-trM" firstAttribute="leading" secondItem="7iu-EE-13S" secondAttribute="trailing" constant="9.5" id="E1i-Al-LSN"/>
                                     <constraint firstItem="7iu-EE-13S" firstAttribute="leading" secondItem="8bh-nb-EU6" secondAttribute="leading" constant="20" id="PFd-LY-YCU"/>
-                                    <constraint firstItem="Ps0-0v-trM" firstAttribute="top" secondItem="8bh-nb-EU6" secondAttribute="top" constant="36" id="Td8-PL-N7V"/>
-                                    <constraint firstAttribute="bottom" secondItem="7iu-EE-13S" secondAttribute="bottom" constant="36" id="hzI-bB-qO6"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ps0-0v-trM" secondAttribute="trailing" constant="8" id="j2c-oE-YvE"/>
+                                    <constraint firstItem="7iu-EE-13S" firstAttribute="centerY" secondItem="8bh-nb-EU6" secondAttribute="centerY" id="XMr-Lj-Pcw"/>
+                                    <constraint firstItem="Ps0-0v-trM" firstAttribute="centerY" secondItem="8bh-nb-EU6" secondAttribute="centerY" constant="1" id="dHg-xP-SMT"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ps0-0v-trM" secondAttribute="trailing" constant="61" id="j2c-oE-YvE"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="SNH-Cj-caD">
-                                <rect key="frame" x="20" y="379" width="175" height="176"/>
+                                <rect key="frame" x="20" y="372" width="175" height="176"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="favButton" translatesAutoresizingMaskIntoConstraints="NO" id="PQ5-v1-gU6">
                                         <rect key="frame" x="50" y="12" width="75" height="75"/>
@@ -93,7 +91,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="coJ-48-sUB">
-                                <rect key="frame" x="219" y="379" width="175" height="176"/>
+                                <rect key="frame" x="219" y="372" width="175" height="176"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Previous Places" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wm-zG-26T">
                                         <rect key="frame" x="17" y="108" width="143" height="32"/>
@@ -118,7 +116,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u0P-JI-N4t">
-                                <rect key="frame" x="20" y="98.5" width="295" height="46"/>
+                                <rect key="frame" x="20" y="114.5" width="295" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-SemiBold" family="Jost" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -129,7 +127,7 @@
                         <constraints>
                             <constraint firstItem="coJ-48-sUB" firstAttribute="leading" secondItem="SNH-Cj-caD" secondAttribute="trailing" constant="24" id="3jI-Im-Abp"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="coJ-48-sUB" secondAttribute="trailing" constant="20" id="72f-8j-S8y"/>
-                            <constraint firstItem="09F-GD-1Sl" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="15" id="DaU-5g-dis"/>
+                            <constraint firstItem="09F-GD-1Sl" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="20" id="DaU-5g-dis"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="8bh-nb-EU6" secondAttribute="trailing" constant="20" id="H6c-mt-s43"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="09F-GD-1Sl" secondAttribute="trailing" constant="20" id="Jo5-Zm-AzN"/>
                             <constraint firstItem="u0P-JI-N4t" firstAttribute="top" secondItem="7Ie-ZK-mVO" secondAttribute="bottom" constant="8" id="MeO-rp-ARc"/>
@@ -143,7 +141,7 @@
                             <constraint firstItem="8bh-nb-EU6" firstAttribute="top" secondItem="09F-GD-1Sl" secondAttribute="bottom" constant="42" id="sMs-0L-EFO"/>
                             <constraint firstItem="coJ-48-sUB" firstAttribute="top" secondItem="8bh-nb-EU6" secondAttribute="bottom" constant="35" id="tUY-ss-StK"/>
                             <constraint firstItem="7Ie-ZK-mVO" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="ub4-Wq-gHc"/>
-                            <constraint firstItem="7Ie-ZK-mVO" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="vhc-dn-ldx"/>
+                            <constraint firstItem="7Ie-ZK-mVO" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="16" id="vhc-dn-ldx"/>
                         </constraints>
                     </view>
                     <connections>
