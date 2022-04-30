@@ -41,6 +41,16 @@ class SignUpViewController: UIViewController {
         self.view.addGestureRecognizer(UITapGestureRecognizer(target: self.view, action: #selector(UIView.endEditing(_:))))
     }
     
+    
+    
+    @IBAction func backButtonPressed(_ sender: UITapGestureRecognizer) {
+        let storyboard = UIStoryboard(name: "StartingScreen", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "StartingScreen") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
+    
+    
+    
     @IBAction func nextButtonPressed(_ sender: UIButton) {
         
         //Sets the first sign up screen information to User Defualts

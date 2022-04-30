@@ -22,6 +22,7 @@ struct K{
         static let signUpToHome = "SignUptoHome"
         static let loginToHome = "LoginToHome"
         static let findPlace = "toFindPlace2"
+        static let signUpToStart = "signUpToStarting"
     }
     
     //For User Defualts
@@ -31,5 +32,9 @@ struct K{
         static let phoneNumber = "phoneNumber"
         static let username = "username"
         static let email = "email"
+    }
+    
+    struct  API{
+        static let google = "AIzaSyCSryEt8F_AFtJAnYwS9C9yjbvuNVo6qnc"
     }
 }

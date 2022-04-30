@@ -11,7 +11,7 @@
         <array key="Jost-ExtraBold.ttf">
             <string>Jost-ExtraBold</string>
         </array>
-        <array key="Jost-VariableFont_wght.ttf">
+        <array key="Jost-Regular.ttf">
             <string>Jost-Regular</string>
         </array>
     </customFonts>
@@ -19,7 +19,7 @@
         <!--Log In View Controller-->
         <scene sceneID="aMZ-9x-vbN">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="69n-3b-gtk" customClass="LogInViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="69n-3b-gtk" customClass="LogInViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lou-6d-Won">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,6 +77,18 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Qsj-7v-Ibc">
+                                <rect key="frame" x="20" y="50.5" width="40" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HRz-Rx-SqA"/>
+                                    <constraint firstAttribute="width" constant="40" id="QOC-Oh-Wyz"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="4ck-a6-uGN" appends="YES" id="vXo-IM-Eiy"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eYy-FF-Yr3"/>
                         <color key="backgroundColor" name="Primary 1"/>
@@ -90,6 +102,7 @@
                             <constraint firstItem="A2B-ou-DgY" firstAttribute="top" secondItem="lou-6d-Won" secondAttribute="top" id="P1g-QY-UmC"/>
                             <constraint firstItem="A2B-ou-DgY" firstAttribute="trailing" secondItem="eYy-FF-Yr3" secondAttribute="trailing" id="QO9-JR-yTQ"/>
                             <constraint firstItem="eYy-FF-Yr3" firstAttribute="trailing" secondItem="6Eg-Pz-z82" secondAttribute="trailing" constant="20" id="RTf-FN-1s5"/>
+                            <constraint firstItem="Qsj-7v-Ibc" firstAttribute="leading" secondItem="eYy-FF-Yr3" secondAttribute="leading" constant="20" id="Yqh-U5-GFq"/>
                             <constraint firstItem="09w-bk-Pw7" firstAttribute="leading" secondItem="eYy-FF-Yr3" secondAttribute="leading" constant="20" id="aFm-We-RjT"/>
                             <constraint firstItem="eYy-FF-Yr3" firstAttribute="trailing" secondItem="1SU-wu-K35" secondAttribute="trailing" constant="20" id="bg7-3F-LKQ"/>
                             <constraint firstItem="w4x-N0-5BC" firstAttribute="top" secondItem="6Eg-Pz-z82" secondAttribute="bottom" constant="40" id="d7h-Y5-yh2"/>
@@ -98,6 +111,7 @@
                             <constraint firstItem="eYy-FF-Yr3" firstAttribute="trailing" secondItem="KAt-0y-7zg" secondAttribute="trailing" constant="36" id="dVn-nU-z7h"/>
                             <constraint firstItem="w4x-N0-5BC" firstAttribute="leading" secondItem="eYy-FF-Yr3" secondAttribute="leading" constant="20" id="fqz-gx-fwG"/>
                             <constraint firstItem="A2B-ou-DgY" firstAttribute="leading" secondItem="eYy-FF-Yr3" secondAttribute="leading" id="jwn-nF-ktG"/>
+                            <constraint firstItem="Qsj-7v-Ibc" firstAttribute="top" secondItem="eYy-FF-Yr3" secondAttribute="top" constant="4" id="tVW-CW-Wjb"/>
                             <constraint firstItem="PRz-yi-H8J" firstAttribute="top" secondItem="09w-bk-Pw7" secondAttribute="bottom" constant="8" id="v39-sk-Agh"/>
                             <constraint firstItem="6Eg-Pz-z82" firstAttribute="leading" secondItem="eYy-FF-Yr3" secondAttribute="leading" constant="20" id="y9W-dr-Hnw"/>
                         </constraints>
@@ -110,6 +124,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDV-CA-BV5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4ck-a6-uGN">
+                    <connections>
+                        <action selector="backButtonPressed:" destination="69n-3b-gtk" id="INU-Q2-skj"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="134.78260869565219" y="-15.401785714285714"/>
         </scene>
@@ -126,6 +145,7 @@
     </scenes>
     <resources>
         <image name="Login Art" width="428" height="926"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <namedColor name="Accent 1">
             <color red="0.94901960784313721" green="0.73725490196078436" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

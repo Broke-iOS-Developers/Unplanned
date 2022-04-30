@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -22,7 +22,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="SignUpViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="SignUpViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,6 +95,18 @@
                                     <action selector="nextButtonPressed:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="vfs-Nq-Dwi"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cdA-2v-9mk">
+                                <rect key="frame" x="20" y="54.5" width="40" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ab1-Ga-5Lt"/>
+                                    <constraint firstAttribute="width" constant="40" id="iVg-zi-hm2"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="JVC-Dz-YcI" appends="YES" id="XDp-Sv-jVz"/>
+                                </connections>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="Primary 1"/>
@@ -102,7 +114,9 @@
                             <constraint firstItem="cpd-fL-ZbG" firstAttribute="top" secondItem="btj-iQ-fl3" secondAttribute="bottom" constant="40" id="0J6-Ze-Noq"/>
                             <constraint firstItem="VMc-B3-ytY" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="0ah-j5-sl6"/>
                             <constraint firstItem="btj-iQ-fl3" firstAttribute="top" secondItem="CYj-J7-YEL" secondAttribute="bottom" constant="8" id="2eF-BX-3w5"/>
+                            <constraint firstItem="cdA-2v-9mk" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="6dx-mb-rH2"/>
                             <constraint firstItem="TtQ-97-0RQ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="745-tF-cUT"/>
+                            <constraint firstItem="cdA-2v-9mk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="FuF-A4-qsp"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xd1-jY-C4h" secondAttribute="trailing" constant="36" id="KCj-eN-upg"/>
                             <constraint firstItem="776-fe-LCl" firstAttribute="top" secondItem="TtQ-97-0RQ" secondAttribute="bottom" constant="8" id="MAn-JH-5tp"/>
                             <constraint firstItem="CYj-J7-YEL" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="My5-Nd-GIE"/>
@@ -126,6 +140,7 @@
                             <constraint firstItem="TtQ-97-0RQ" firstAttribute="top" secondItem="lfB-pc-HEr" secondAttribute="bottom" constant="40" id="z53-Lz-sud"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="WcS-GY-9jl"/>
                     <connections>
                         <outlet property="emailTextField" destination="776-fe-LCl" id="CGo-IB-cfs"/>
                         <outlet property="firstNameTextField" destination="btj-iQ-fl3" id="z1i-PQ-8fe"/>
@@ -135,67 +150,77 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="JVC-Dz-YcI">
+                    <connections>
+                        <action selector="backButtonPressed:" destination="Y6W-OH-hqX" id="Shf-Ua-3Xi"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
         </scene>
         <!--Sign Up2 View Controller-->
         <scene sceneID="UxR-Ho-Mhg">
             <objects>
-                <viewController id="8P7-mV-5H3" customClass="SignUp_2_ViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="8P7-mV-5H3" customClass="SignUp_2_ViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TWY-nw-nOp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Middle Art_2-1" translatesAutoresizingMaskIntoConstraints="NO" id="H2w-8o-NPJ">
-
                                 <rect key="frame" x="0.0" y="44" width="414" height="84"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="N1I-g1-heA">
+                                <rect key="frame" x="20" y="54.5" width="40" height="35"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="7RP-gD-7rH"/>
+                                    <constraint firstAttribute="height" constant="40" id="npo-13-i01"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fnj-ag-7mA" appends="YES" id="fKV-HO-brX"/>
+                                </connections>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last Step!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvk-dW-YjC">
-                                <rect key="frame" x="20" y="144" width="230" height="70"/>
+                                <rect key="frame" x="20" y="144" width="230" height="69.5"/>
                                 <fontDescription key="fontDescription" name="Jost-ExtraBold" family="Jost" pointSize="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost done" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxl-mJ-FAk">
-
-                                <rect key="frame" x="20" y="222" width="204.5" height="52.5"/>
+                                <rect key="frame" x="20" y="221.5" width="204.5" height="52.5"/>
                                 <fontDescription key="fontDescription" name="Jost-SemiBold" family="Jost" pointSize="36"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k39-Ne-t9x">
-
-                                <rect key="frame" x="20" y="357.5" width="374" height="34"/>
+                                <rect key="frame" x="20" y="357" width="374" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="next" textContentType="username"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Co-xf-Oa6">
-
-                                <rect key="frame" x="20" y="314.5" width="101" height="35"/>
+                                <rect key="frame" x="20" y="314" width="101" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="etb-Rh-oWb">
-
-                                <rect key="frame" x="20" y="474.5" width="374" height="34"/>
+                                <rect key="frame" x="20" y="474" width="374" height="34"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSn-YZ-V3L">
-
-                                <rect key="frame" x="20" y="431.5" width="95" height="35"/>
+                                <rect key="frame" x="20" y="431" width="94.5" height="35"/>
                                 <fontDescription key="fontDescription" name="Jost-Regular" family="Jost" pointSize="24"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLQ-1a-zl6">
-
-                                <rect key="frame" x="36" y="725.5" width="342" height="60"/>
+                                <rect key="frame" x="36" y="725" width="342" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="zkX-RS-FsK"/>
                                 </constraints>
@@ -225,8 +250,10 @@
                             <constraint firstItem="etb-Rh-oWb" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="cYY-bk-iUy"/>
                             <constraint firstItem="H2w-8o-NPJ" firstAttribute="top" secondItem="UYe-z3-ujB" secondAttribute="top" id="eIs-13-kIN"/>
                             <constraint firstItem="Gvk-dW-YjC" firstAttribute="top" secondItem="H2w-8o-NPJ" secondAttribute="bottom" constant="16" id="elI-qt-pYX"/>
+                            <constraint firstItem="N1I-g1-heA" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="gyA-0s-0gO"/>
                             <constraint firstItem="Gvk-dW-YjC" firstAttribute="leading" secondItem="UYe-z3-ujB" secondAttribute="leading" constant="20" id="n3g-c0-6j8"/>
                             <constraint firstItem="H2w-8o-NPJ" firstAttribute="trailing" secondItem="UYe-z3-ujB" secondAttribute="trailing" id="oMw-x6-sNr"/>
+                            <constraint firstItem="N1I-g1-heA" firstAttribute="top" secondItem="UYe-z3-ujB" secondAttribute="top" constant="8" id="ol7-BN-Jex"/>
                             <constraint firstItem="hxl-mJ-FAk" firstAttribute="top" secondItem="Gvk-dW-YjC" secondAttribute="bottom" constant="8" id="phO-ds-vvk"/>
                             <constraint firstItem="UYe-z3-ujB" firstAttribute="trailing" secondItem="k39-Ne-t9x" secondAttribute="trailing" constant="20" id="s5P-7P-qir"/>
                             <constraint firstItem="3Co-xf-Oa6" firstAttribute="top" secondItem="hxl-mJ-FAk" secondAttribute="bottom" constant="40" id="vLp-l3-wvb"/>
@@ -243,23 +270,28 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Tf-Wb-0LQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fnj-ag-7mA">
+                    <connections>
+                        <action selector="backButtonPressed:" destination="8P7-mV-5H3" id="vYn-36-1dg"/>
+                        <segue destination="Y6W-OH-hqX" kind="show" id="fvD-qW-LQt"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1009" y="116"/>
         </scene>
         <!--Sign Up3 View Controller-->
         <scene sceneID="9BR-hG-JEo">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" id="F14-6f-nag" customClass="SignUp_3_ViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="F14-6f-nag" customClass="SignUp_3_ViewController" customModule="Unplanned" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bJ2-dD-xBV">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Middle Art_3-2" translatesAutoresizingMaskIntoConstraints="NO" id="VKp-yt-mhV">
-
                                 <rect key="frame" x="0.0" y="44" width="414" height="98"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enjoy!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YaB-Qi-G8Y">
-                                <rect key="frame" x="20" y="158" width="143" height="70"/>
+                                <rect key="frame" x="20" y="158" width="143" height="69.5"/>
                                 <fontDescription key="fontDescription" name="Jost-ExtraBold" family="Jost" pointSize="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -299,6 +331,7 @@
         <image name="Middle Art_1" width="428" height="84"/>
         <image name="Middle Art_2-1" width="428" height="84"/>
         <image name="Middle Art_3-2" width="428" height="98"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <namedColor name="Accent 1">
             <color red="0.94901960784313721" green="0.73725490196078436" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

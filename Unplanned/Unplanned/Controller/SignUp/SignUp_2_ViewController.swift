@@ -60,16 +60,21 @@ class SignUp_2_ViewController: UIViewController {
                         self.present(alert, animated: true, completion: nil)
             } else {
                 self.defaults.set(self.usernameTextField.text, forKey: K.Keys.username)
+                //Goes to enjoy screen
                 self.performSegue(withIdentifier: K.Segue.enjoy, sender: nil)
             }
         }
         
         
-        //Goes to enjoy screen
         
         
     }
-
+    
+    @IBAction func backButtonPressed(_ sender: Any) {
+        //self.dismiss(animated: true)
+        print("Pressed")
+    }
+    
 
 }
 

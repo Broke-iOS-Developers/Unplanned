@@ -7,6 +7,8 @@ target 'Unplanned' do
 
 	pod 'Parse'
   pod 'IQKeyboardManagerSwift'
+  pod 'GooglePlaces' 
+
   # Pods for Unplanned
 
 end

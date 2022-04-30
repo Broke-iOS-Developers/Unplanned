@@ -1,5 +1,6 @@
 PODS:
   - Bolts/Tasks (1.9.1)
+  - GooglePlaces (6.2.0)
   - IQKeyboardManagerSwift (6.5.9)
   - Parse (1.19.3):
     - Parse/Core (= 1.19.3)
@@ -7,20 +8,23 @@ PODS:
     - Bolts/Tasks (= 1.9.1)
 
 DEPENDENCIES:
+  - GooglePlaces
   - IQKeyboardManagerSwift
   - Parse
 
 SPEC REPOS:
   trunk:
     - Bolts
+    - GooglePlaces
     - IQKeyboardManagerSwift
     - Parse
 
 SPEC CHECKSUMS:
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  GooglePlaces: 53ce075bac2ea015afbd6577f47d186426a3a388
   IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
   Parse: 0abb63a0ff6fa34a3f64b81d595a294e2ece143a
 
-PODFILE CHECKSUM: 15fa147adeb5d609d43e8feee83abefd5e3d41e3
+PODFILE CHECKSUM: 667a446a56a0f59469d91eb291178692847a1a5d
 
 COCOAPODS: 1.11.3
