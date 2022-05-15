@@ -35,12 +35,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="backButton-1" translatesAutoresizingMaskIntoConstraints="NO" id="EIr-j4-brV">
-                                <rect key="frame" x="20" y="44" width="80" height="33"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="252" image="backButton-1" translatesAutoresizingMaskIntoConstraints="NO" id="EIr-j4-brV">
+                                <rect key="frame" x="20" y="52" width="80" height="33"/>
+                                <gestureRecognizers/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="xjc-tX-LT2" appends="YES" id="TkF-UX-GCe"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select your prefrences:" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MBk-ha-boN">
-                                <rect key="frame" x="20" y="89" width="200" height="92.666666666666686"/>
+                                <rect key="frame" x="20" y="97" width="200" height="92.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="vqp-Kn-FjC"/>
                                 </constraints>
@@ -49,7 +53,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qFv-3v-qMT">
-                                <rect key="frame" x="20" y="221.66666666666663" width="350" height="80"/>
+                                <rect key="frame" x="20" y="229.66666666666663" width="350" height="80"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFd-Wt-gGY">
                                         <rect key="frame" x="60.000000000000014" y="8" width="143.33333333333337" height="64"/>
@@ -85,7 +89,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xz3-hH-qSR">
-                                <rect key="frame" x="20" y="341.66666666666669" width="350" height="244.66666666666669"/>
+                                <rect key="frame" x="20" y="349.66666666666669" width="350" height="244.66666666666669"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JtA-zp-Wy5">
                                         <rect key="frame" x="24" y="64.666666666666629" width="160" height="160"/>
@@ -241,10 +245,10 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="qPZ-M9-gxP" secondAttribute="trailing" constant="36" id="7gB-iF-9ds"/>
                             <constraint firstItem="qPZ-M9-gxP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="36" id="9HC-c2-d7f"/>
                             <constraint firstItem="qFv-3v-qMT" firstAttribute="top" secondItem="MBk-ha-boN" secondAttribute="bottom" constant="40" id="Fgl-Bk-EnO"/>
+                            <constraint firstItem="EIr-j4-brV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="Rkp-kV-Ox2"/>
                             <constraint firstItem="MBk-ha-boN" firstAttribute="top" secondItem="EIr-j4-brV" secondAttribute="bottom" constant="12" id="Sw7-E3-jFI"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="qFv-3v-qMT" secondAttribute="trailing" constant="20" id="W6L-nk-fJm"/>
                             <constraint firstItem="xz3-hH-qSR" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Yuy-EG-FCK"/>
-                            <constraint firstItem="EIr-j4-brV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="Z06-fX-yXt"/>
                             <constraint firstItem="MBk-ha-boN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="eUa-If-1we"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="qPZ-M9-gxP" secondAttribute="bottom" constant="40" id="gv6-IB-Mxw"/>
                             <constraint firstItem="qFv-3v-qMT" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="jBb-5K-tYl"/>
@@ -267,6 +271,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="xjc-tX-LT2">
+                    <connections>
+                        <action selector="backButtonPressed:" destination="Y6W-OH-hqX" id="yip-00-N90"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="96.428571428571431"/>
         </scene>

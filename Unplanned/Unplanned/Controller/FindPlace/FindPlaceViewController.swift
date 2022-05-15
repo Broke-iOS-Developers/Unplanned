@@ -112,6 +112,15 @@ class FindPlaceViewController: UIViewController {
     }
     
     
+    @IBAction func backButtonPressed(_ sender: UITapGestureRecognizer) {
+        let storyboard = UIStoryboard(name: "Home", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "Home") as UIViewController
+        present(vc, animated: true, completion: nil)
+    }
+    
+    
+    
+    
     
     
     

@@ -9,6 +9,8 @@ target 'Unplanned' do
 	pod 'Parse'
   pod 'IQKeyboardManagerSwift'
   pod 'GooglePlaces'
+  pod 'GoogleMaps', '6.2.1'
+
   
   # Cocoapods-Keys
   plugin 'cocoapods-keys', {

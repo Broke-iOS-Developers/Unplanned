@@ -11,11 +11,11 @@
         <array key="Jost-ExtraBold.ttf">
             <string>Jost-ExtraBold</string>
         </array>
+        <array key="Jost-Regular.ttf">
+            <string>Jost-Regular</string>
+        </array>
         <array key="Jost-SemiBold.ttf">
             <string>Jost-SemiBold</string>
-        </array>
-        <array key="Jost-VariableFont_wght.ttf">
-            <string>Jost-Regular</string>
         </array>
     </customFonts>
     <scenes>
