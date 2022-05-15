@@ -6,10 +6,12 @@
 //
 
 import Foundation
+import Keys
 
 //Stores hard-coded string values
 //Centralizes information
 
+private let keys = UnplannedKeys()
 
 struct K{
     static let appName = "Unplanned"
@@ -23,6 +25,7 @@ struct K{
         static let loginToHome = "LoginToHome"
         static let findPlace = "toFindPlace2"
         static let signUpToStart = "signUpToStarting"
+        static let homeToFind = "HomeToFind"
     }
     
     //For User Defualts
@@ -35,6 +38,6 @@ struct K{
     }
     
     struct  API{
-        static let google = "AIzaSyCSryEt8F_AFtJAnYwS9C9yjbvuNVo6qnc"
+        static let google = keys.googleAPI
     }
 }

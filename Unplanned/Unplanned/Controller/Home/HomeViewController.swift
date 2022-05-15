@@ -55,4 +55,7 @@ class HomeViewController: UIViewController {
         nameLabel.text = firstName as? String
     }
 
+    @IBAction func findPlaceButtonPressed(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: K.Segue.homeToFind, sender: nil)
+    }
 }

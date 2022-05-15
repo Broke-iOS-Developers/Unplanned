@@ -1,7 +1,8 @@
 PODS:
   - Bolts/Tasks (1.9.1)
-  - GooglePlaces (6.2.0)
-  - IQKeyboardManagerSwift (6.5.9)
+  - GooglePlaces (6.2.1)
+  - IQKeyboardManagerSwift (6.5.10)
+  - Keys (1.0.1)
   - Parse (1.19.3):
     - Parse/Core (= 1.19.3)
   - Parse/Core (1.19.3):
@@ -10,6 +11,7 @@ PODS:
 DEPENDENCIES:
   - GooglePlaces
   - IQKeyboardManagerSwift
+  - Keys (from `Pods/CocoaPodsKeys`)
   - Parse
 
 SPEC REPOS:
@@ -19,12 +21,17 @@ SPEC REPOS:
     - IQKeyboardManagerSwift
     - Parse
 
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
 SPEC CHECKSUMS:
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
-  GooglePlaces: 53ce075bac2ea015afbd6577f47d186426a3a388
-  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  GooglePlaces: 94974aa119573d5acc2a35a699948dac838abd73
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
   Parse: 0abb63a0ff6fa34a3f64b81d595a294e2ece143a
 
-PODFILE CHECKSUM: 667a446a56a0f59469d91eb291178692847a1a5d
+PODFILE CHECKSUM: ce05b94eb4eb6bcd38f149d3e1203dbffdc21ea0
 
 COCOAPODS: 1.11.3

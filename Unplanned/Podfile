@@ -5,10 +5,19 @@ target 'Unplanned' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+  # Pods for Unplanned
 	pod 'Parse'
   pod 'IQKeyboardManagerSwift'
-  pod 'GooglePlaces' 
+  pod 'GooglePlaces'
+  
+  # Cocoapods-Keys
+  plugin 'cocoapods-keys', {
+    :project => "Unplanned",
+    :keys => [
+      "GoogleAPI"
+    ]}
 
-  # Pods for Unplanned
+  
+  
 
 end
