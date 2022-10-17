@@ -2620,6 +2620,24 @@
 			};
 			name = Release;
 		};
+		24069BB3B6E16DED8CC95987BEACAF82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9468019141D8F65EABB9187D9382F340 /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2777,24 +2795,6 @@
 			};
 			name = Release;
 		};
-		88BF77687BFC2BC2FB3F8F329A47B311 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9468019141D8F65EABB9187D9382F340 /* GooglePlaces.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		9D8C08F259B4E57381CFE8BC28467628 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FEDB5132B4F46EAC4AD9C29DDEBB4DE3 /* IQKeyboardManagerSwift.release.xcconfig */;
@@ -2916,6 +2916,23 @@
 			};
 			name = Debug;
 		};
+		C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB85AB6E6387DD31443247A118BE69E /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3012,23 +3029,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		E2C5D149DE277CA85397A039B337B44C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FB85AB6E6387DD31443247A118BE69E /* GooglePlaces.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		E558C36582EEBE2B824AF226106E0FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3217,8 +3217,8 @@
 		9C94FBBEEFB700C4478289AF59ED693A /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2C5D149DE277CA85397A039B337B44C /* Debug */,
-				88BF77687BFC2BC2FB3F8F329A47B311 /* Release */,
+				C36EC2744E968A453E8CE2CB5CCFAA85 /* Debug */,
+				24069BB3B6E16DED8CC95987BEACAF82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -51,7 +51,7 @@ class HomeViewController: UIViewController {
         super.viewDidLoad()
         
         let user = PFUser.current()
-        let firstName = user!.object(forKey: "firstName")
+        let firstName = user!.object(forKey: "firstName") ?? "Defualt"
         nameLabel.text = firstName as? String
     }
 

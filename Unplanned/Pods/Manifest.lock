@@ -5,7 +5,7 @@ PODS:
   - GoogleMaps/Base (6.2.1)
   - GoogleMaps/Maps (6.2.1):
     - GoogleMaps/Base
-  - GooglePlaces (6.2.1)
+  - GooglePlaces (7.0.0)
   - IQKeyboardManagerSwift (6.5.10)
   - Keys (1.0.1)
   - Parse (1.19.3):
@@ -35,7 +35,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
   GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
-  GooglePlaces: 94974aa119573d5acc2a35a699948dac838abd73
+  GooglePlaces: 8dba710bed6160a2e4b85e84aaafdbcc0b4010d8
   IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
   Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
   Parse: 0abb63a0ff6fa34a3f64b81d595a294e2ece143a

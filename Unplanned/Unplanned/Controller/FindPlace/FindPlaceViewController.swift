@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import GoogleMaps
+import CoreLocation
 
 class FindPlaceViewController: UIViewController {
     @IBOutlet weak var backButton: UIImageView!
@@ -46,6 +48,8 @@ class FindPlaceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setPopUpMenus()
+        
+
     }
    
     // MARK: - Menu Buttons
@@ -118,11 +122,15 @@ class FindPlaceViewController: UIViewController {
         present(vc, animated: true, completion: nil)
     }
     
+    //MARK: - MapView
     
-    
-    
-    
-    
+    func setUpMaps(){
+        var locationManager = CLLocationManager()
+        let camera = GMSCameraPosition.camera(withLatitude: -33.8683, longitude: 151.2086, zoom: 6)
+        let gmsMapView = GMSMapView(frame: .zero, camera: camera)
+        
+        self.mapView = gmsMapView
+    }
     
 
 }
