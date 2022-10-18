@@ -32,9 +32,18 @@ class LogInViewController: UIViewController {
         
         //Logs in the user
         PFUser.logInWithUsername(inBackground: username, password:password) {
-            (user: PFUser?, error: Error?) -> Void in
-            if user != nil {
+            (tempUser: PFUser?, error: Error?) -> Void in
+            if let user = tempUser {
                 // Do stuff after successful login.
+                
+                //Set User Defualts to logged in user
+                let defaults = UserDefaults.standard
+                
+                defaults.set(user[K.Keys.firstName], forKey: K.Keys.firstName)
+                defaults.set(user[K.Keys.lastName], forKey: K.Keys.lastName)
+                defaults.set(user.email, forKey: K.Keys.email)
+                
+                
                 self.performSegue(withIdentifier: K.Segue.loginToHome, sender: nil)
             } else {
                 if let error = error {

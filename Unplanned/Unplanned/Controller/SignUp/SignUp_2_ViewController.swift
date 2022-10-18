@@ -22,10 +22,9 @@ class SignUp_2_ViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
-    
-    //Global Variables
+    //Global vars
     let defaults = UserDefaults.standard
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         usernameTextField.delegate = self
@@ -39,6 +38,7 @@ class SignUp_2_ViewController: UIViewController {
         
         //Parse account registering
         let user = PFUser()
+        
         
         user.username = usernameTextField.text
         user.password = passwordTextField.text

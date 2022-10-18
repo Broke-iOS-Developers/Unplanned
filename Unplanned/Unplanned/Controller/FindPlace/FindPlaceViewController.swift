@@ -48,7 +48,7 @@ class FindPlaceViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setPopUpMenus()
-        
+        setUpMaps()
 
     }
    
