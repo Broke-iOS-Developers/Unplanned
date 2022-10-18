@@ -58,6 +58,7 @@
 		899D507B2807CAC0009B7BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 899D507A2807CAC0009B7BF4 /* Assets.xcassets */; };
 		899D507E2807CAC0009B7BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899D507C2807CAC0009B7BF4 /* LaunchScreen.storyboard */; };
 		89A0E23F2814923400D1858D /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A0E23E2814923400D1858D /* Home.storyboard */; };
+		89AA792028FE7CE100BEEE6A /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AA791F28FE7CE100BEEE6A /* UserDefaults.swift */; };
 		89DF5E2B280B567600EFBEFE /* SignUp_3_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */; };
 		89DF5E2D280F4BBC00EFBEFE /* FindPlace.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */; };
 		89DF5E30280F4BD900EFBEFE /* FindPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */; };
@@ -121,6 +122,7 @@
 		899D507D2807CAC0009B7BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		899D507F2807CAC0009B7BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89A0E23E2814923400D1858D /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		89AA791F28FE7CE100BEEE6A /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		89DF5E2A280B567600EFBEFE /* SignUp_3_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp_3_ViewController.swift; sourceTree = "<group>"; };
 		89DF5E2C280F4BBC00EFBEFE /* FindPlace.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FindPlace.storyboard; sourceTree = SOURCE_ROOT; };
 		89DF5E2F280F4BD900EFBEFE /* FindPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPlaceViewController.swift; sourceTree = "<group>"; };
@@ -275,6 +277,7 @@
 		899D50852807D6FF009B7BF4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				89AA791E28FE7CC100BEEE6A /* Extensions */,
 				892C18312808B78B00A83DF0 /* AppStoryboard.swift */,
 				892C1890280A7BD300A83DF0 /* Constants.swift */,
 			);
@@ -312,6 +315,14 @@
 				892C182F2808B36F00A83DF0 /* StartingViewController.swift */,
 			);
 			path = Starting;
+			sourceTree = "<group>";
+		};
+		89AA791E28FE7CC100BEEE6A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89AA791F28FE7CE100BEEE6A /* UserDefaults.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		89DF5E2E280F4BC800EFBEFE /* FindPlace */ = {
@@ -507,6 +518,7 @@
 				89DF5E30280F4BD900EFBEFE /* FindPlaceViewController.swift in Sources */,
 				892C18822809298300A83DF0 /* SignUpViewController.swift in Sources */,
 				892C18322808B78B00A83DF0 /* AppStoryboard.swift in Sources */,
+				89AA792028FE7CE100BEEE6A /* UserDefaults.swift in Sources */,
 				899D50722807CABE009B7BF4 /* AppDelegate.swift in Sources */,
 				892C188D280A331200A83DF0 /* LogInViewController.swift in Sources */,
 				89DF5E2B280B567600EFBEFE /* SignUp_3_ViewController.swift in Sources */,

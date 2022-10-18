@@ -26,6 +26,15 @@ class StartingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let launchedBefore = UserDefaults.standard.bool(forKey: "launchedBefore")
+        if launchedBefore  {
+            print("Not first launch.")
+        } else {
+            print("First launch, setting UserDefault.")
+            UserDefaults.resetDefaults()
+            UserDefaults.standard.set(true, forKey: "launchedBefore")
+        }
 
         //UI CHANGES
         
